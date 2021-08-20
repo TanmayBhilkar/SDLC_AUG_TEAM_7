@@ -38,7 +38,8 @@ Many websites were available which would implement only one of the features of o
 | 01 | Design of filters | Taking input like frequency and gain from the user and returning the circuit parameters for design | 
 | 02 | OP-AMP |Just to check Wheteher the given parameter forms the given Amplifier or Not.|
 | 03 | Logic Gates | To implement different Logic gates like AND, OR, NOT, NAND, NOR, XOR, and XNOR Gates |  
-| 04 | 3 variable K-Map | To produce simplified expression for 3 variable minterms input |
+| 04 | Design of Oscillators | Taking input like frequency and gain from the user and returning the circuit parameters for design of that oscillator |
+| 05 | 3 variable K-Map | To produce simplified expression for 3 variable minterms input |
 
 ## High Level Requirements: 
 | ID | Description | Status |
