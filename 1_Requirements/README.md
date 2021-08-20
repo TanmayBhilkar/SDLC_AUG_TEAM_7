@@ -40,6 +40,7 @@ Many websites were available which would implement only one of the features of o
 | 03 | Logic Gates | To implement different Logic gates like AND, OR, NOT, NAND, NOR, XOR, and XNOR Gates |  
 | 04 | Design of Oscillators | Taking input like frequency and gain from the user and returning the circuit parameters for design of that oscillator |
 | 05 | 3 variable K-Map | To produce simplified expression for 3 variable minterms input |
+| 06 | Number system conversions | To implement conversion of numbers from one system to the other i.e binary,decimal,octal,hexadecimal |
 
 ## High Level Requirements: 
 | ID | Description | Status |
@@ -63,3 +64,4 @@ Many websites were available which would implement only one of the features of o
 | LR22 | Implement test cases to check the implementation of Logic Gates | HR05 | TBD |
 | LR31 | Application shall take the number of minterms (max. 8) and what the minterms are as input | HR02 | TBD |
 | LR32 | Application shall print the simplified 3 variable expression as output | HR03 | TBD |
+| LR41 | Application should be able to give an output in specific number system, when user enters an input | HR02,HR03,HR04 | TBD |
