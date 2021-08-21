@@ -70,6 +70,6 @@ Many websites were available which would implement only one of the features of o
 | LR51 | Application should be able to give an output of rectifier when user enters input | HR02,HR03 | TBD |
 | LR52 | Application should be able to calculate efficiency when user opts for it  | HR02,HR03 | TBD |
 | LR53 | Application should be able to take input of Vm in the given range | HR02 | TBD |
-| LR60 | Application Should be Able to Take correct Op_AMP|
+| LR60 | Application Should be Able to Take correct Op_AMP| HR06 | TBD|
 | LR61 | Application Should Be Able to Give Output According to the Op-Amp| HR06| TBD |
 
