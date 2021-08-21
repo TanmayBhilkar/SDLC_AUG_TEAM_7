@@ -1,4 +1,4 @@
-#include "fun.h"
+#include "LogicGates.h"
 #include <stdio.h>
 #include <stdlib.h>
   int display(int number)
