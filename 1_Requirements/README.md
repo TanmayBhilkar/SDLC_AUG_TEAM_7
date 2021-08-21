@@ -41,6 +41,7 @@ Many websites were available which would implement only one of the features of o
 | 04 | Design of Oscillators | Taking input like frequency and gain from the user and returning the circuit parameters for design of that oscillator |
 | 05 | 3 variable K-Map | To produce simplified expression for 3 variable minterms input |
 | 06 | Number system conversions | To implement conversion of numbers from one system to the other i.e binary,decimal,octal,hexadecimal |
+| 07 | Rectifier | To design different rectifiers by talking input from the user for various parameters |
 
 ## High Level Requirements: 
 | ID | Description | Status |
@@ -65,3 +66,7 @@ Many websites were available which would implement only one of the features of o
 | LR31 | Application shall take the number of minterms (max. 8) and what the minterms are as input | HR02 | TBD |
 | LR32 | Application shall print the simplified 3 variable expression as output | HR03 | TBD |
 | LR41 | Application should be able to give an output in specific number system, when user enters an input | HR02,HR03,HR04 | TBD |
+| LR51 | Application should be able to give an output of rectifier when user enters input | HR02,HR03 | TBD |
+| LR52 | Application should be able to calculate efficiency when user opts for it  | HR02,HR03 | TBD |
+| LR53 | Application should be able to take input of Vm in the given range | HR02 | TBD |
+
