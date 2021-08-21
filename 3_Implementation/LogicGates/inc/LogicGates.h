@@ -1,5 +1,5 @@
-#ifndef __FUN_H__
-#define __FUN_H__
+#ifndef __LOGICGATES_H__
+#define __LOGICGATES_H__
 
 /**
  * @brief To prompt the user to enter Binary values
