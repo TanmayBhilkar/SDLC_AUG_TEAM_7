@@ -1,4 +1,4 @@
-PROJECT_NAME = Flip FLops
+PROJECT_NAME = Flip Flops
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
 SRC= mainFlipFlop.c\
