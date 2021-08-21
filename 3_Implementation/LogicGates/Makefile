@@ -32,30 +32,6 @@ test:
 	gcc -I $(INC_H) -I $(INC_T) $(TEST_SRC) $(SRC) -o $(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
 	./$(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
 
-coverage:
-	cp test/unitTest.c .
-	gcc -fprofile-arcs -ftest-coverage -I $(INC_H) -I $(INC_T) unity/unity.c unitTest.c $(SRC) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC))
-	$(call FixPath, ./$(TEST_PROJ_NAME).$(EXEC))
-	gcov -a $(COV_SRC)
-	$(RM) *.$(EXEC)
-	$(RM) *.gcda
-	$(RM) *.gcno
-	$(RM) *.c.gcov
-	$(RM) *.DAT
-	$(RM) unitTest.c
-
-
-cppcheck:
-	
-	cppcheck --enable=all $(SRC) mainLogicGates.c
-debug:
-	gcc -I $(INC_H) $(SRC) mainLogicGates.c -g -o $(PROJ_NAME).$(EXEC)
-	gdb $(PROJ_NAME).$(EXEC)
-
-valgrind:
-	valgrind ./$(TEST_PROJ_NAME).$(EXEC)
-
-
 clean:
 	$(RM) *.DAT
 	$(RM) *.$(EXEC)
