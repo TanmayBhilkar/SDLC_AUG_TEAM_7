@@ -1,5 +1,5 @@
 #include "unity.h"
-#include "fun.h"
+#include "LogicGates.h"
 int andarr[2]={1,0};
 int orarr[2]={1,1};
 int nandarr[3]={1,1,1};
@@ -15,11 +15,6 @@ void setUp()
 void tearDown()
 {
 
-}
-
-void test_inputs(void)
-{
-   TEST_ASSERT_EQUAL(0, inputs(andarr,2));
 }
 
 
