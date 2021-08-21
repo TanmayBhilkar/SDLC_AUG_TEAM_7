@@ -39,7 +39,7 @@ Many websites were available which would implement only one of the features of o
 | 02 | OP-AMP |Just to check Wheteher the given parameter forms the given Amplifier or Not. and Find out the output Voltage|
 | 03 | Logic Gates | To implement different Logic gates like AND, OR, NOT, NAND, NOR, XOR, and XNOR Gates |  
 | 04 | Design of Oscillators | Taking input like frequency and gain from the user and returning the circuit parameters for design of that oscillator |
-| 05 | 3 variable K-Map | To produce simplified expression for 3 variable minterms input |
+| 05 | Flip Flops | Implement different Flip Flops and give the next state to the user |
 | 06 | Number system conversions | To implement conversion of numbers from one system to the other i.e binary,decimal,octal,hexadecimal |
 | 07 | Rectifier | To design different rectifiers by talking input from the user for various parameters |
 
@@ -64,8 +64,8 @@ Many websites were available which would implement only one of the features of o
 | LR11 | Application should consider all the different types of active filters available to design | HR01 | TBD |
 | LR21 | Implementation of different Logic Gates | HR01 | TBD |
 | LR22 | Implement test cases to check the implementation of Logic Gates | HR05 | TBD |
-| LR31 | Application shall take the number of minterms (max. 8) and what the minterms are as input | HR02 | TBD |
-| LR32 | Application shall print the simplified 3 variable expression as output | HR03 | TBD |
+| LR31 | Application should take the Flip Flop present states as input | HR02 | TBD |
+| LR32 | Application should print the next state as output | HR03 | TBD |
 | LR41 | Application should be able to give an output in specific number system, when user enters an input | HR02,HR03,HR04 | TBD |
 | LR51 | Application should be able to give an output of rectifier when user enters input | HR02,HR03 | TBD |
 | LR52 | Application should be able to calculate efficiency when user opts for it  | HR02,HR03 | TBD |
