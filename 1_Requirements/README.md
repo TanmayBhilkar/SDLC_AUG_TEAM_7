@@ -36,7 +36,7 @@ Many websites were available which would implement only one of the features of o
 | Sl. No. | Component | Description |
 | ------- | ----------- | ------------- |
 | 01 | Design of filters | Taking input like frequency and gain from the user and returning the circuit parameters for design | 
-| 02 | OP-AMP |Just to check Wheteher the given parameter forms the given Amplifier or Not.|
+| 02 | OP-AMP |Just to check Wheteher the given parameter forms the given Amplifier or Not. and Find out the output Voltage|
 | 03 | Logic Gates | To implement different Logic gates like AND, OR, NOT, NAND, NOR, XOR, and XNOR Gates |  
 | 04 | Design of Oscillators | Taking input like frequency and gain from the user and returning the circuit parameters for design of that oscillator |
 | 05 | 3 variable K-Map | To produce simplified expression for 3 variable minterms input |
@@ -51,6 +51,7 @@ Many websites were available which would implement only one of the features of o
 | HR03 | Application should print output to the user | TBD |
 | HR04 | Application should work on both Linux and Windows | TBD |
 | HR05 | Application should follow clean code rules | TBD |
+| HR06 | Op-Amp Application Should Print Voltage to User|TBD|
 
 ##  Low level Requirements:
  
@@ -69,4 +70,6 @@ Many websites were available which would implement only one of the features of o
 | LR51 | Application should be able to give an output of rectifier when user enters input | HR02,HR03 | TBD |
 | LR52 | Application should be able to calculate efficiency when user opts for it  | HR02,HR03 | TBD |
 | LR53 | Application should be able to take input of Vm in the given range | HR02 | TBD |
+| LR60 | Application Should be Able to Take correct Op_AMP|
+| LR61 | Application Should Be Able to Give Output According to the Op-Amp| HR06| TBD |
 
