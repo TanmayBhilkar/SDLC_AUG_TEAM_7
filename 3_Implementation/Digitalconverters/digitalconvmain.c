@@ -6,7 +6,7 @@ int main ()
 {
     int choice;
     printf("Digital Conversions: \n Select your choice:");
-    printf("\n1. Binary to gray \n2. Gray to binary \n3. BCD to excess 3 \n4. Excess 3 to BCD");
+    printf("\n1. Binary to gray \n2. Gray to binary \n");
     printf("\nChoice:");
     scanf("%d",&choice);
     if(choice == 1)
@@ -28,6 +28,7 @@ int main ()
         graytobin(g);
 
     }
+    /*
     else if(choice == 3)
     {
         long bcd;
@@ -53,5 +54,6 @@ int main ()
              printf("%d",bcd[i]);
 
     }
+    */
 }
  
