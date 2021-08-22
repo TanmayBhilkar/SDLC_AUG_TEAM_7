@@ -59,7 +59,7 @@ int LogicGates_main()
     printf("Enter:\n A for AND Gate \n B for OR Gate \n C for NOT Gate \n D for NAND Gate \n \
 E for NOR Gate \n F for XOR Gate \n G for XNOR Gate \n");
     scanf(" %c",&option);
-    printf("\n Enter the number of inputs: 1 for NOT gate, and 2 or 3 other gates\n");
+    printf("\n Enter the number of inputs: 1 for NOT gate, and 2 or 3 for other gates\n");
     scanf("%d",&number);
     
         if(number==1||number==2||number==3)
