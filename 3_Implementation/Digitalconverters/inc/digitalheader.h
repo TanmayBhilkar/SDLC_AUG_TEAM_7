@@ -36,5 +36,5 @@ int *bcdtox3(long,int *);
  */
 
 int *x3tobcd(int,int *);
-/*
+*/
 #endif
