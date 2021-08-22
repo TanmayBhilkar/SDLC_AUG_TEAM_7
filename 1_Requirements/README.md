@@ -42,6 +42,7 @@ Many websites were available which would implement only one of the features of o
 | 05 | Flip Flops | Implement different Flip Flops and give the next state to the user |
 | 06 | Number system conversions | To implement conversion of numbers from one system to the other i.e binary,decimal,octal,hexadecimal |
 | 07 | Rectifier | To design different rectifiers by talking input from the user for various parameters |
+| 08 | OP-AMP_Part-B |To check Wheteher the given parameter forms the given Amplifier or Not. and Find out the output Voltage|
 
 ## High Level Requirements: 
 | ID | Description | Status |
@@ -52,6 +53,7 @@ Many websites were available which would implement only one of the features of o
 | HR04 | Application should work on both Linux and Windows | TBD |
 | HR05 | Application should follow clean code rules | TBD |
 | HR06 | Op-Amp Application Should Print Voltage to User|TBD|
+
 
 ##  Low level Requirements:
  
@@ -72,4 +74,6 @@ Many websites were available which would implement only one of the features of o
 | LR53 | Application should be able to take input of Vm in the given range | HR02 | TBD |
 | LR60 | Application Should be Able to Take correct Op_AMP| HR06 | TBD|
 | LR61 | Application Should Be Able to Give Output According to the Op-Amp| HR06| TBD |
+| LR71 | Op-Amp_Part-B Should Print output Voltage by taking inputs for input votages and Resistances| HR02,HR03 |TBD|
+| LR72 | Op-Amp_Part-B should give the choice to user to choose various opamps available| HR01 |TBD|
 
