@@ -175,35 +175,35 @@ void test_RF(void){
 // Test the osc_check_code function
 void test_osc_check_code(void)
 {
-    TEST_ASSERT_EQUAL(Success_1,osc_check_choice('A'));
-    TEST_ASSERT_EQUAL(Choice_error_1,osc_check_choice('a'));
+    TEST_ASSERT_EQUAL(osc_success,osc_check_choice('A'));
+    TEST_ASSERT_EQUAL(osc_choice_error,osc_check_choice('a'));
 }
 
 // Test the osc_rc_phase_shift function
 void test_osc_rc_phase_shift(void)
 {
     // Check for NULL values (Failure)
-    TEST_ASSERT_EQUAL(Failure_1,osc_rc_phase_shift(NULL));
+    TEST_ASSERT_EQUAL(osc_failure,osc_rc_phase_shift(NULL));
     // Check for right values
-    TEST_ASSERT_EQUAL(Success_1,osc_rc_phase_shift(&true_rc_phase_wein));
+    TEST_ASSERT_EQUAL(osc_success,osc_rc_phase_shift(&true_rc_phase_wein));
     // Comparing individual design parameters of the RC Phase Shift Oscillator
     TEST_ASSERT_EQUAL_FLOAT(true_rc_phase_design_param.C,expected_design_values.C);
     TEST_ASSERT_EQUAL_FLOAT(true_rc_phase_design_param.R,expected_design_values.R);
     TEST_ASSERT_EQUAL_FLOAT(true_rc_phase_design_param.R1,expected_design_values.R1);
     TEST_ASSERT_EQUAL_FLOAT(true_rc_phase_design_param.R2,expected_design_values.R2);
     // Check for out of range values (Limit Error)
-    TEST_ASSERT_EQUAL(Limit_error_1,osc_rc_phase_shift(&false_rc_phase_wein1));
-    TEST_ASSERT_EQUAL(Limit_error_1,osc_rc_phase_shift(&false_rc_phase_wein3));
-    TEST_ASSERT_EQUAL(Limit_error_1,osc_rc_phase_shift(&false_rc_phase_wein4));
+    TEST_ASSERT_EQUAL(osc_limit_error,osc_rc_phase_shift(&false_rc_phase_wein1));
+    TEST_ASSERT_EQUAL(osc_limit_error,osc_rc_phase_shift(&false_rc_phase_wein3));
+    TEST_ASSERT_EQUAL(osc_limit_error,osc_rc_phase_shift(&false_rc_phase_wein4));
 }
 
 // Test the osc_wein_bridge function
 void test_osc_wein_bridge(void)
 {
     // Check for NULL values (Failure)
-    TEST_ASSERT_EQUAL(Failure_1,osc_wein_bridge(NULL));
+    TEST_ASSERT_EQUAL(osc_failure,osc_wein_bridge(NULL));
     // Check for right values
-    TEST_ASSERT_EQUAL(Success_1,osc_wein_bridge(&true_rc_phase_wein));
+    TEST_ASSERT_EQUAL(osc_success,osc_wein_bridge(&true_rc_phase_wein));
     // Comparing individual design parameters of the Wein Bridge Oscillator
     TEST_ASSERT_EQUAL_FLOAT(true_wein_bridge_design_param.C,expected_design_values.C);
     TEST_ASSERT_EQUAL_FLOAT(true_wein_bridge_design_param.C1,expected_design_values.C1);
@@ -212,18 +212,18 @@ void test_osc_wein_bridge(void)
     TEST_ASSERT_EQUAL_FLOAT(true_wein_bridge_design_param.R2,expected_design_values.R2);
     TEST_ASSERT_EQUAL_FLOAT(true_wein_bridge_design_param.R3,expected_design_values.R3);
     // Check for out of range values (Limit Error)
-    TEST_ASSERT_EQUAL(Limit_error_1,osc_wein_bridge(&false_rc_phase_wein2));
-    TEST_ASSERT_EQUAL(Limit_error_1,osc_wein_bridge(&false_rc_phase_wein3));
-    TEST_ASSERT_EQUAL(Limit_error_1,osc_wein_bridge(&false_rc_phase_wein4));
+    TEST_ASSERT_EQUAL(osc_limit_error,osc_wein_bridge(&false_rc_phase_wein2));
+    TEST_ASSERT_EQUAL(osc_limit_error,osc_wein_bridge(&false_rc_phase_wein3));
+    TEST_ASSERT_EQUAL(osc_limit_error,osc_wein_bridge(&false_rc_phase_wein4));
 }
 
 // Test the osc_colpitts function
 void test_osc_colpitts(void)
 {
     // Check for NULL values (Failure)
-    TEST_ASSERT_EQUAL(Failure_1,osc_colpitts(NULL));
+    TEST_ASSERT_EQUAL(osc_failure,osc_colpitts(NULL));
     // Check for right values
-    TEST_ASSERT_EQUAL(Success_1,osc_colpitts(&true_colpitts));
+    TEST_ASSERT_EQUAL(osc_success,osc_colpitts(&true_colpitts));
     // Comparing individual design parameters of the Colpitts Oscillator
     TEST_ASSERT_EQUAL_FLOAT(true_colpitts_design_param.C,expected_design_values.C);
     TEST_ASSERT_EQUAL_FLOAT(true_colpitts_design_param.C1,expected_design_values.C1);
@@ -231,46 +231,46 @@ void test_osc_colpitts(void)
     TEST_ASSERT_EQUAL_FLOAT(true_colpitts_design_param.R1,expected_design_values.R1);
     TEST_ASSERT_EQUAL_FLOAT(true_colpitts_design_param.R2,expected_design_values.R2);
     // Check for out of range values (Limit Error)
-    TEST_ASSERT_EQUAL(Limit_error_1,osc_colpitts(&false_colpitts1));
-    TEST_ASSERT_EQUAL(Limit_error_1,osc_colpitts(&false_colpitts2));
-    TEST_ASSERT_EQUAL(Limit_error_1,osc_colpitts(&false_colpitts3));
-    TEST_ASSERT_EQUAL(Limit_error_1,osc_colpitts(&false_colpitts4));
+    TEST_ASSERT_EQUAL(osc_limit_error,osc_colpitts(&false_colpitts1));
+    TEST_ASSERT_EQUAL(osc_limit_error,osc_colpitts(&false_colpitts2));
+    TEST_ASSERT_EQUAL(osc_limit_error,osc_colpitts(&false_colpitts3));
+    TEST_ASSERT_EQUAL(osc_limit_error,osc_colpitts(&false_colpitts4));
 }
 
 // Test the osc_astable_mvr function
 void test_osc_astable_mvr(void)
 {
     // Check for NULL values (Failure)
-    TEST_ASSERT_EQUAL(Failure_1,osc_astable_mvr(NULL));
+    TEST_ASSERT_EQUAL(osc_failure,osc_astable_mvr(NULL));
     // Check for right values
-    TEST_ASSERT_EQUAL(Success_1,osc_astable_mvr(&true_mvr));
+    TEST_ASSERT_EQUAL(osc_success,osc_astable_mvr(&true_mvr));
     // Comparing individual design parameters of the Astable Multivibrator
     TEST_ASSERT_EQUAL_FLOAT(true_astable_mvr_design_param.C,expected_design_values.C);
     TEST_ASSERT_EQUAL_FLOAT(true_astable_mvr_design_param.R,expected_design_values.R);
     TEST_ASSERT_EQUAL_FLOAT(true_astable_mvr_design_param.R1,expected_design_values.R1);
     TEST_ASSERT_EQUAL_FLOAT(true_astable_mvr_design_param.R2,expected_design_values.R2);
     // Check for out of range values (Limit Error)
-    TEST_ASSERT_EQUAL(Limit_error_1,osc_astable_mvr(&false_mvr1));
-    TEST_ASSERT_EQUAL(Limit_error_1,osc_astable_mvr(&false_mvr2));
-    TEST_ASSERT_EQUAL(Limit_error_1,osc_astable_mvr(&false_mvr3));
+    TEST_ASSERT_EQUAL(osc_limit_error,osc_astable_mvr(&false_mvr1));
+    TEST_ASSERT_EQUAL(osc_limit_error,osc_astable_mvr(&false_mvr2));
+    TEST_ASSERT_EQUAL(osc_limit_error,osc_astable_mvr(&false_mvr3));
 }
 
 // Test the osc_monostable_mvr function
 void test_osc_monostable_mvr(void)
 {
     // Check for NULL values (Failure)
-    TEST_ASSERT_EQUAL(Failure_1,osc_monostable_mvr(NULL));
+    TEST_ASSERT_EQUAL(osc_failure,osc_monostable_mvr(NULL));
     // Check for right values
-    TEST_ASSERT_EQUAL(Success_1,osc_monostable_mvr(&true_mvr));
+    TEST_ASSERT_EQUAL(osc_success,osc_monostable_mvr(&true_mvr));
     // Comparing individual design parameters of the Monostable Multivibrator
     TEST_ASSERT_EQUAL_FLOAT(true_monostable_mvr_design_param.C,expected_design_values.C);
     TEST_ASSERT_EQUAL_FLOAT(true_monostable_mvr_design_param.R,expected_design_values.R);
     TEST_ASSERT_EQUAL_FLOAT(true_monostable_mvr_design_param.R1,expected_design_values.R1);
     TEST_ASSERT_EQUAL_FLOAT(true_monostable_mvr_design_param.R2,expected_design_values.R2);
     // Check for out of range values (Limit Error)
-    TEST_ASSERT_EQUAL(Limit_error_1,osc_monostable_mvr(&false_mvr1));
-    TEST_ASSERT_EQUAL(Limit_error_1,osc_monostable_mvr(&false_mvr2));
-    TEST_ASSERT_EQUAL(Limit_error_1,osc_monostable_mvr(&false_mvr3));
+    TEST_ASSERT_EQUAL(osc_limit_error,osc_monostable_mvr(&false_mvr1));
+    TEST_ASSERT_EQUAL(osc_limit_error,osc_monostable_mvr(&false_mvr2));
+    TEST_ASSERT_EQUAL(osc_limit_error,osc_monostable_mvr(&false_mvr3));
 }
 
 //-------------------FLIP FLOPS--------------------------------

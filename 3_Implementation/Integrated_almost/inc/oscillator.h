@@ -58,10 +58,10 @@ extern osc_output_val expected_design_values;
  */
 typedef enum osc_condition
 {
-    Limit_error_1=-2,
-    Choice_error_1=-1,
-    Failure_1 = 0,
-    Success_1 = 1
+    osc_limit_error=-2,
+    osc_choice_error=-1,
+    osc_failure= 0,
+    osc_success= 1
 }osc_condition;
 
 /**

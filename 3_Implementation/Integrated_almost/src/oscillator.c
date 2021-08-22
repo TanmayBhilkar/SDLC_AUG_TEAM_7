@@ -37,9 +37,9 @@ void osc_display()
 osc_condition osc_check_choice(char ch)
 {
     if (ch=='A' || ch=='B' || ch=='C' || ch=='D' || ch=='E') 
-        return Success_1;
+        return osc_success;
     else 
-        return Choice_error_1;
+        return osc_choice_error;
 }
 
 /**
@@ -101,11 +101,11 @@ osc_condition osc_select(char ch)
     };
 
     if (flag==1) 
-        return Success_1;
+        return osc_success;
     else if (flag==-1) 
-        return Choice_error_1; 
+        return osc_choice_error; 
     else 
-        return Failure_1;
+        return osc_failure;
 }
 /**
  * @brief Defining the calculated circuit design parameters output structure
@@ -125,7 +125,7 @@ osc_condition osc_rc_phase_shift(osc_input_val* osc_params)
     // Condition to check input parameters pointer is an NULL pointer
     if (osc_params==NULL)
     {
-        return Failure_1;
+        return osc_failure;
     }
 
     // Condition to check whether the oscillating frequency range or the oscillator amplitude gain range is violated  
@@ -134,7 +134,7 @@ osc_condition osc_rc_phase_shift(osc_input_val* osc_params)
     {
             printf("\nOut of Range of SpecifiedLimits. Please Check Inputs");
             printf("\n !!! Note : The oscillating frequency range is from 0.1kHz to 1000kHz and amplitude gain range is from 29dB to 100dB\n");
-            return Limit_error_1;
+            return osc_limit_error;
     }
     // Structure containing the RC Phase Shift Oscillator circuit design parameters  
     osc_output_val* rc_phase_shift_design_param=malloc(sizeof(osc_output_val));
@@ -167,7 +167,7 @@ osc_condition osc_rc_phase_shift(osc_input_val* osc_params)
     free(rc_phase_shift_design_param);
     
     // Returning the Success condition
-    return Success_1;
+    return osc_success;
 }
 
 /**
@@ -181,7 +181,7 @@ osc_condition osc_wein_bridge(osc_input_val* osc_params)
     // Condition to check input parameters pointer is an NULL pointer
     if (osc_params==NULL)
     {
-        return Failure_1;
+        return osc_failure;
     }
 
     // Condition to check whether the oscillating frequency range or the oscillator amplitude gain range is violated  
@@ -190,7 +190,7 @@ osc_condition osc_wein_bridge(osc_input_val* osc_params)
     {
             printf("\nOut of Range of SpecifiedLimits. Please Check Inputs");
             printf("\n !!! Note : The oscillating frequency range is from 0.1kHz to 1000kHz and amplitude gain range is from 3 dB to 100 dB\n");
-            return Limit_error_1;
+            return osc_limit_error;
     }
     
     // Structure containing the Wein Bridge Oscillator circuit design parameters  
@@ -227,7 +227,7 @@ osc_condition osc_wein_bridge(osc_input_val* osc_params)
     free(wein_bridge_design_param);
     
     // Returning the Success condition
-    return Success_1;
+    return osc_success;
 }
 
 /**
@@ -241,7 +241,7 @@ osc_condition osc_colpitts(osc_input_val* osc_params)
     // Condition to check input parameters pointer is an NULL pointer
     if (osc_params==NULL)
     {
-        return Failure_1;
+        return osc_failure;
     }
 
     // Condition to check whether the oscillating frequency range or the oscillator amplitude gain range is violated  
@@ -250,7 +250,7 @@ osc_condition osc_colpitts(osc_input_val* osc_params)
     {
             printf("\nOut of Range of SpecifiedLimits. Please Check Inputs");
             printf("\n !!! Note : The oscillating frequency range is from 0.1kHz to 1000kHz, amplitude gain range is from 2.9 dB to 100 dB and feedback fraction is from 0.1 to 10\n");
-            return Limit_error_1;
+            return osc_limit_error;
     }
 
     // Structure containing the Colpitts Oscillator circuit design parameters  
@@ -290,7 +290,7 @@ osc_condition osc_colpitts(osc_input_val* osc_params)
     free(colpitts_design_param);
     
     // Returning the Success condition
-    return Success_1;
+    return osc_success;
 }
 
 /**
@@ -304,7 +304,7 @@ osc_condition osc_astable_mvr(osc_input_val* osc_params)\
     // Condition to check input parameters pointer is an NULL pointer
     if (osc_params==NULL)
     {
-        return Failure_1;
+        return osc_failure;
     }
 
     // Condition to check whether the oscillating frequency range or the feedback fraction range is violated  
@@ -312,7 +312,7 @@ osc_condition osc_astable_mvr(osc_input_val* osc_params)\
     {
             printf("\nOut of Range of SpecifiedLimits. Please Check Inputs");
             printf("\n !!! Note : The oscillating frequency range is from 0.1kHz to 1000kHz and feedback fraction range is from 0.1 to 10\n");
-            return Limit_error_1;
+            return osc_limit_error;
     }
 
     // Structure containing the Astable Multivibrator circuit design parameters  
@@ -342,7 +342,7 @@ osc_condition osc_astable_mvr(osc_input_val* osc_params)\
     free(astable_mvr_design_param);
     
     // Returning the Success condition
-    return Success_1;
+    return osc_success;
 }
 
 /**
@@ -356,7 +356,7 @@ osc_condition osc_monostable_mvr(osc_input_val* osc_params)
     // Condition to check input parameters pointer is an NULL pointer
     if (osc_params==NULL)
     {
-        return Failure_1;
+        return osc_failure;
     }
 
     // Condition to check whether the oscillating frequency range or the feedback fraction range is violated  
@@ -364,7 +364,7 @@ osc_condition osc_monostable_mvr(osc_input_val* osc_params)
     {
             printf("\nOut of Range of SpecifiedLimits. Please Check Inputs");
             printf("\n !!! Note : The oscillating frequency range is from 0.1kHz to 1000kHz and feedback fraction range is from 0 to 10\n");
-            return Limit_error_1;
+            return osc_limit_error;
     }
     // Structure containing the Monostable Multivibrator circuit design parameters  
     osc_output_val* monostable_mvr_design_param=malloc(sizeof(osc_output_val));
@@ -394,5 +394,5 @@ osc_condition osc_monostable_mvr(osc_input_val* osc_params)
     free(monostable_mvr_design_param);
     
     // Returning the Success condition
-    return Success_1;
+    return osc_success;
 }
