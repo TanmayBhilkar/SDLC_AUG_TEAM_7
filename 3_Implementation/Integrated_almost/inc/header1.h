@@ -1,5 +1,5 @@
-#ifndef __HEADER_H__
-#define __HEADER_H__
+#ifndef __HEADER1_H__
+#define __HEADER1_H__
 //halfadder
 typedef char bit;
 // bit carry=0;

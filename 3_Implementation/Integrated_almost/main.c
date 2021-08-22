@@ -8,6 +8,7 @@
 #include "oscillator.h"
 #include "headers.h"
 #include "digitalheader.h"
+#include "header1.h"
 
 int OpAmpB_main()
 {   char a='y';
@@ -323,14 +324,68 @@ int DigitalConv_main ()
    	scanf(" %c",&a);}
     return 0;
 }
- 
+
+int AddersAndSub_main()
+{   char a='y';
+	while(a=='y' || a=='Y'){
+    int choice;
+    printf("Adders and Subtractors:\nEnter your choice:\n 1. Half Adder \n 2. Full Adder\n 3. Half Subtractor\n 4. Full subtractor\n");
+    scanf("%d",&choice);
+
+    if(choice ==1)
+    {
+        int i,j,result,carry;
+        printf("Input A and B\n");
+        scanf("%d%d",&i,&j);
+        
+        result=halfadd(i,j);
+        carry = halfadd_carry(i,j);
+        
+        printf("result = %d carry= %d\n",result,carry);
+            
+
+    }
+    else if (choice==2)
+    {
+       int i,j,k,sum,cout;
+       printf("Input A, B and Cin\n");
+       scanf("%d%d%d",&i,&j,&k);
+       sum= Full_Adder_sum(i, j, k);
+        cout=Full_Adder_carry(i,j,k);
+        printf("Sum = %d, Cout = %d",sum,cout);
+    }
+    else if(choice ==3)
+    {
+         int i,j,result,borrow;
+        printf("Input A and B\n");
+        scanf("%d%d",&i,&j);
+        result=halfsub(i,j);
+        borrow = halfsub_b(i,j);
+        printf("result = %d borrow = %d\n",result,borrow);
+
+    }
+    else if(choice == 4)
+    {
+        int i,j,k,dif,bout;
+        printf("Input A, B and Bin\n");
+        scanf("%d%d%d",&i,&j,&k);
+        dif =Full_Subtractor_Dif(i, j, k);
+        bout = Full_Subtractor_bout(i,j,k);
+        printf("Difference = %d B_Out = %d\n",dif,bout);
+
+    }
+    printf("\nDo you wish to continue with Digital Conversions menu?(y/n):");
+   	scanf(" %c",&a);}
+    return 0;
+}
+
 
 int main(){
     printf("**************************  WELCOME  **************************\n");
     printf("This is a project which will help you design and implement various electronics circuits and logics!\n");
     printf("Refer the below chart to use the features with their respective codes:\n");
     printf("A: Design of Filters\nB: Rectifiers\nC: Logic Gates\nD: Oscillators\nE: Op-Amps\n" );
-    printf("F: Flip Flops\nG: Op-amps Part B\nH: Digital Converters\n");
+    printf("F: Flip Flops\nG: Op-amps Part B\nH: Digital Converters\nI: Adders and Subtractors\n");
     printf("Enter a feature you want to use : ");
     char key;
     scanf("%c",&key);
@@ -366,6 +421,10 @@ int main(){
 
         case 'H':
         DigitalConv_main();
+        break;
+
+        case 'I':
+        AddersAndSub_main();
         break;
 
         default:
