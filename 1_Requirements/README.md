@@ -43,6 +43,7 @@ Many websites were available which would implement only one of the features of o
 | 06 | Number system conversions | To implement conversion of numbers from one system to the other i.e binary,decimal,octal,hexadecimal |
 | 07 | Rectifier | To design different rectifiers by talking input from the user for various parameters |
 | 08 | OP-AMP_Part-B |To check Wheteher the given parameter forms the given Amplifier or Not. and Find out the output Voltage|
+| 09 | Adders and Subtractors | To implement addition and subtraction on binary numbers|
 
 ## High Level Requirements: 
 | ID | Description | Status |
