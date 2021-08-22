@@ -17,6 +17,6 @@
 | LLT02  | HLT01 | Dynamic code quality check | Valgrind on .out files | TBD | TBD | Technical |
 | LLT03  | HLT02 | Check for wrong input variable for filter choosing | char with wrong code | TBD | TBD | Scenario/Technical |
 | LLT04  | HLT03 | Upper and lower limit violation check for freq | Struct with limit violating values of freq | TBD | TBD | Scenario/Technical |
-| LLT05  | HLT02 | Oscillators: Check for wrong input variable for oscillator choosing  | char with wrong code | Failure (enum) | 0 | Scenario/Technical |
-| LLT06  | HLT03 | Oscillators: Upper and lower limit violation check for oscillator frequency, amplitude gain and feedback fraction (one or more) | Structure with limit violating values of oscillator frequency, amplitude gain and feedback fraction (one or more) | Limits Error (enum) | -2 | Scenario/Technical |
+| LLT05  | HLT02 | Oscillators: Check for wrong input variable for oscillator choosing  | char with wrong code | Failure (enum) | Failure (enum) | Scenario/Technical |
+| LLT06  | HLT03 | Oscillators: Upper and lower limit violation check for oscillator frequency, amplitude gain and feedback fraction (one or more) | Structure with limit violating values of oscillator frequency, amplitude gain and feedback fraction (one or more) | Limits Error (enum) | Limits Error (enum) | Scenario/Technical |
 | LLT07  | HLT04 | Oscillators: Circuit Design Parameters Check | Struct with the right input parameters for the given oscillator circuit | Structure containing the expected circuit design parametrs  | Structure containing the calculated circuit design parameters | Technical |
