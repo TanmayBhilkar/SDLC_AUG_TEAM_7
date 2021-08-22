@@ -5,6 +5,7 @@
 #include "Header.h"
 #include "LogicGates.h"
 #include "rect.h"
+#include "oscillator.h"
 
 int filter_main()
 {
@@ -13,7 +14,7 @@ int filter_main()
     {
         display();
         char k;
-        scanf("%c",&k);
+        scanf(" %c",&k);
         choose_filter(k);
         printf("\nDo you wish to continue with design of filters?(y/n):");
         scanf(" %c",&a);
@@ -44,7 +45,7 @@ int LogicGates_main()
     
     printf("Enter:\n A for AND Gate \n B for OR Gate \n C for NOT Gate \n D for NAND Gate \n \
 E for NOR Gate \n F for XOR Gate \n G for XNOR Gate \n");
-    scanf("%c",&option);
+    scanf(" %c",&option);
     printf("\n Enter the number of inputs: 1 for NOT gate, and 2 or 3 other gates\n");
     scanf("%d",&number);
     
@@ -120,6 +121,23 @@ else printf("Please enter a valid option\n");
         return 0;
 }
 
+int Oscillator_main()
+{
+    char osc_option='y';
+	while(osc_option=='y' || osc_option=='Y')
+    {
+        // Call the oscillator circuits menu
+        osc_display();
+        char osc_choice;
+        // User selects the oscillator circuit
+        scanf(" %c",&osc_choice);
+        // Oscillator Circuits Driver Program
+        osc_select(osc_choice);
+        printf("\nDo you wish to continue with design of oscillators?(y/n):");
+        scanf(" %c",&osc_option);
+    }
+    return 0;
+}
 int OpAmps_main() 
 {
 int ch;
@@ -182,7 +200,7 @@ int Rectifier_main(){
     int eff_choice;
     display_2();
     printf("\nEnter the code of the Rectifier of your choice: ");
-    scanf("%c",&option);                                               // taking input from user to opt for rectifier 
+    scanf(" %c",&option);                                               // taking input from user to opt for rectifier 
      if (option=='A' || option=='B' || option=='C'){
         printf("\nEnter the values of Vm in volts: ");
         scanf("%f",&Vm);                                                // taking input from user for Vm 
@@ -249,6 +267,10 @@ int main(){
 
         case 'C':
         LogicGates_main();
+        break;
+
+        case 'D':
+        Oscillator_main();
         break;
 
         case 'E':
