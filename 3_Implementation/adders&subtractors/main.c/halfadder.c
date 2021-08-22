@@ -1,7 +1,7 @@
 int main()
 {
  int i,j,result;
- printf("A   B  |  S  Carry\n");
+ printf("A   B  |  Sum  Carry\n");
  for(i=0;i<2;i++)
  {
   for(j=0;j<2;j++)
