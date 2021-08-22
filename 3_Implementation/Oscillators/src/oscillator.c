@@ -127,7 +127,7 @@ osc_condition osc_rc_phase_shift(osc_input_val* osc_params)
     }
 
     // Condition to check whether the oscillating frequency range or the oscillator amplitude gain range is violated  
-    // Minimum amplitude gain of RC Pahse Shift Oscillator is 29
+    // Minimum amplitude gain of RC Phase Shift Oscillator is 29
     if (osc_params->freq<0.1 || osc_params->freq>1000 || osc_params->Av<29 || osc_params->Av>100)
     {
             printf("\nOut of Range of SpecifiedLimits. Please Check Inputs");
@@ -149,18 +149,19 @@ osc_condition osc_rc_phase_shift(osc_input_val* osc_params)
     // (R2/R1) = Av
     rc_phase_shift_design_param->R2= rc_phase_shift_design_param->R1 *(osc_params->Av);
 
-    //Display all the design parameters of the Wein Bridge Oscillator Circuit
+    //Display all the design parameters of the RC Phase Shift Oscillator Circuit
     printf("The RC Phase Shift Oscillator circuit design parameters are: \n");
     printf("R= %.3f kOhms\n",rc_phase_shift_design_param->R);
     printf("R1= %.3f kOhms\n",rc_phase_shift_design_param->R1);
     printf("R2= %.3f kOhms\n",rc_phase_shift_design_param->R2);
 
     printf("C= %.3f nF\n",rc_phase_shift_design_param->C);
-    // Freeing up the output structure containing the Wein Bridge Oscillator circuit design parameters
-    
+
+    printf("\n\nRefer to the RC Phase Shift Oscillator circuit diagram\n");
     // Assigning the calculated value circuit design parameters in the output structure
     // For testing purpose
     expected_design_values = *rc_phase_shift_design_param;
+    // Freeing up the output structure containing the RC Phase Oscillator circuit design parameters
     free(rc_phase_shift_design_param);
     
     // Returning the Success condition
@@ -182,7 +183,7 @@ osc_condition osc_wein_bridge(osc_input_val* osc_params)
     }
 
     // Condition to check whether the oscillating frequency range or the oscillator amplitude gain range is violated  
-    // Minimum amplitude gain of RC Pahse Shift Oscillator is 3
+    // Minimum amplitude gain of Wein Bridge Oscillator is 3
     if (osc_params->freq<0.1 || osc_params->freq>1000 || osc_params->Av<3 || osc_params->Av>100)
     {
             printf("\nOut of Range of SpecifiedLimits. Please Check Inputs");
@@ -214,7 +215,8 @@ osc_condition osc_wein_bridge(osc_input_val* osc_params)
 
     printf("C1= %.3f nF\n",wein_bridge_design_param->C);
     printf("C2= %.3f nF\n",wein_bridge_design_param->C1);
-    
+
+    printf("\n\nRefer to the Wein Bridge Oscillator circuit diagram\n");
     // Assigning the calculated value circuit design parameters in the output structure
     // For testing purpose
     expected_design_values = *wein_bridge_design_param;
@@ -241,7 +243,7 @@ osc_condition osc_colpitts(osc_input_val* osc_params)
     }
 
     // Condition to check whether the oscillating frequency range or the oscillator amplitude gain range is violated  
-    // Minimum amplitude gain of RC Pahse Shift Oscillator is 2.9    
+    // Minimum amplitude gain of Colpitts Oscillator is 2.9    
     if (osc_params->freq<0.1 || osc_params->freq>1000 || osc_params->Av<2.9 || osc_params->Av>100 || osc_params->beta<0.1 || osc_params->beta>10)
     {
             printf("\nOut of Range of SpecifiedLimits. Please Check Inputs");
@@ -268,7 +270,6 @@ osc_condition osc_colpitts(osc_input_val* osc_params)
     colpitts_design_param->L=(1000000)/(4 * pi * pi * osc_params->freq * osc_params->freq * Ceq);
     
     //Display all the design parameters of the Copitts Oscillator Circuit
-
     printf("The Colpitts Oscillator circuit design parameters are: \n");
     printf("R1= %.3f kOhms\n",colpitts_design_param->R1);
     printf("R2= %.3f kOhms\n",colpitts_design_param->R2);
@@ -278,6 +279,7 @@ osc_condition osc_colpitts(osc_input_val* osc_params)
 
     printf("L= %.3f mH\n",colpitts_design_param->L);
 
+    printf("\n\nRefer to the Colpitts Oscillator circuit diagram\n");
     // Assigning the calculated value circuit design parameters in the output structure
     // For testing purpose
     expected_design_values = *colpitts_design_param;
@@ -311,7 +313,7 @@ osc_condition osc_astable_mvr(osc_input_val* osc_params)\
             return Limit_error;
     }
 
-    // Structure containing the Astable circuit design parameters  
+    // Structure containing the Astable Multivibrator circuit design parameters  
     osc_output_val* astable_mvr_design_param=malloc(sizeof(osc_output_val));
     // Design Calculations
     // Assuming R1=10kohms and C=10nF
@@ -323,18 +325,18 @@ osc_condition osc_astable_mvr(osc_input_val* osc_params)\
     astable_mvr_design_param->R=(1000)/(2 * osc_params->freq * astable_mvr_design_param->C * log((1 + osc_params->beta)/(1 - osc_params->beta)));
 
     //Display all the design parameters of the Astable Multivibrator Circuit
-
     printf("The Astable Multivibrator circuit design parameters are: \n");
     printf("R= %.3f kOhms\n",astable_mvr_design_param->R);
     printf("C= %.3f nF\n",astable_mvr_design_param->C);
     printf("R1= %.3f kOhms\n",astable_mvr_design_param->R1);
     printf("R2= %.3f kOhms\n",astable_mvr_design_param->R2);
 
+    printf("\n\nRefer to the Astable Multivibrator Oscillator circuit diagram\n");
     // Assigning the calculated value circuit design parameters in the output structure
     // For testing purpose
     expected_design_values = *astable_mvr_design_param;
 
-    // Freeing up the output structure containing the Astable circuit design parameters
+    // Freeing up the output structure containing the Astable Multivibrator circuit design parameters
     free(astable_mvr_design_param);
     
     // Returning the Success condition
@@ -362,7 +364,7 @@ osc_condition osc_monostable_mvr(osc_input_val* osc_params)
             printf("\n !!! Note : The oscillating frequency range is from 0.1kHz to 1000kHz and feedback fraction range is from 0 to 10\n");
             return Limit_error;
     }
-    // Structure containing the Monostable circuit design parameters  
+    // Structure containing the Monostable Multivibrator circuit design parameters  
     osc_output_val* monostable_mvr_design_param=malloc(sizeof(osc_output_val));
 
     // Design Calculations
@@ -374,18 +376,19 @@ osc_condition osc_monostable_mvr(osc_input_val* osc_params)
     monostable_mvr_design_param->R2=(osc_params->beta * monostable_mvr_design_param->R1)/(1 - osc_params->beta);
     monostable_mvr_design_param->R=(1000)/(osc_params->freq * monostable_mvr_design_param->C * log(1 + (monostable_mvr_design_param->R2/monostable_mvr_design_param->R1)));
 
-    //Display all the design parameters of the Astable Multivibrator Circuit
+    //Display all the design parameters of the Monostable Multivibrator Circuit
     printf("The Monostable Multivibrator circuit design parameters are: \n");
     printf("R= %.3f kOhms\n",monostable_mvr_design_param->R);
     printf("C= %.3f nF\n",monostable_mvr_design_param->C);
     printf("R1= %.3f kOhms\n",monostable_mvr_design_param->R1);
     printf("R2= %.3f kOhms\n",monostable_mvr_design_param->R2);
 
+    printf("\n\nRefer to the Monostable Multivibrator circuit diagram\n");
     // Assigning the calculated value circuit design parameters in the output structure
     // For testing purpose
     expected_design_values = *monostable_mvr_design_param;
 
-    // Freeing up the output structure containing the Astable circuit design parameters
+    // Freeing up the output structure containing the Monostable Multivibrator circuit design parameters
     free(monostable_mvr_design_param);
     
     // Returning the Success condition
