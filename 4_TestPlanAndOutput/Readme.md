@@ -20,4 +20,4 @@
 | LLT05  | HLT02 | Oscillators: Check for wrong input variable for oscillator choosing  | char with wrong code | osc_failure (enum) | osc_failure (enum) | Scenario/Technical |
 | LLT06  | HLT03 | Oscillators: Upper and lower limit violation check for oscillator frequency, amplitude gain and feedback fraction (one or more) | Structure with limit violating values of oscillator frequency, amplitude gain and feedback fraction (one or more) | osc_limits_error (enum) | osc_limits_error (enum) | Scenario/Technical |
 | LLT07  | HLT04 | Oscillators: Circuit Design Parameters Check | Struct with the right input parameters for the given oscillator circuit | Structure containing the expected circuit design parametrs  | Structure containing the calculated circuit design parameters | Technical |
-|LLT08   |  HLT05 | Operational Amplifier : check the various output of various Amplifier of voltage output parameter| Rf,Rin,Vin|Vout|Vout|Technical|
+|LLT08   |  HLT05 | Operational Amplifier : check the various output of various Amplifier of voltage output parameter| Rf,Rin,Vin|Vout of different amplifiers|Vout of differnt Amplifier |Technical|
