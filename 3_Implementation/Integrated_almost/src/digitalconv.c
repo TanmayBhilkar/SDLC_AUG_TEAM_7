@@ -37,7 +37,7 @@ int graytobin(int n)
     for(i=c-1;i>=0;i--)
     printf("%d",a[i]);
 }
-
+/*
 int *bcdtox3(long num,int *xt)
 {
     int rem,decimal_num=0,base=1,i;
@@ -81,3 +81,4 @@ int *x3tobcd(int num,int *bc)
     return bc;    
      
 }
+*/
