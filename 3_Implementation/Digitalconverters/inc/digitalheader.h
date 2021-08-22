@@ -34,7 +34,7 @@ int *bcdtox3(long,int *);
  * @param num
  * @return int 
  */
-
+/*
 int *x3tobcd(int,int *);
 */
 #endif
