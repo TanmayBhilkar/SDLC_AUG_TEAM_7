@@ -77,8 +77,8 @@ Many websites were available which would implement only one of the features of o
 | LR61 | Application Should Be Able to Give Output According to the Op-Amp| HR06| TBD |
 | LR71 | Op-Amp_Part-B Should Print output Voltage by taking inputs for input votages and Resistances| HR02,HR03 |TBD|
 | LR72 | Op-Amp_Part-B should give the choice to user to choose various opamps available| HR01 |TBD|
-| LR81 | Oscillators, Application should consider the different types of oscillators to design using Op Amp| HR01 |TBD|
-| LR82 | Oscillators, Application takes oscillating frequency, oscillator amplitude gain, feedback fraction as inputs depending on the oscillator circuit selected| HR02 |TBD|
-| LR83 | Oscillators, Application should print the circuit design parameters of the selected oscillator circuit| HR03 |TBD|
+| LR81 | Oscillators: Application should consider the different types of oscillators to design using Op Amp| HR01 |TBD|
+| LR82 | Oscillators: Application takes oscillating frequency, oscillator amplitude gain, feedback fraction as inputs depending on the oscillator circuit selected| HR02 |TBD|
+| LR83 | Oscillators: Application should print the circuit design parameters of the selected oscillator circuit| HR03 |TBD|
 | LR84 | Adders, Application should add binary numbers and produce output| HR07 | TBD |
 | LR85 | Subtractors, Application should subtract binary numbers and produce output| HR07 | TBD |
