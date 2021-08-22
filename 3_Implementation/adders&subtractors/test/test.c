@@ -64,3 +64,15 @@ void test_halfsub_b(void)
        TEST_ASSERT_EQUAL(0, halfsub_b(1,1));
        
 }
+int main(){
+    UNITY_BEGIN();
+    RUN_TEST(test_Full_Adder_sum);
+    RUN_TEST(test_Full_Adder_carry);
+    RUN_TEST(test_Full_Subtractor_Dif);
+    RUN_TEST(test_Full_Subtractor_bout);
+    RUN_TEST(test_halfadd);
+    RUN_TEST(test_halfadd_carry);
+    RUN_TEST(test_halfsub);
+    RUN_TEST(test_halfsub_b)
+    return UNITY_END();
+}
