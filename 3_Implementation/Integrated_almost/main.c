@@ -293,7 +293,7 @@ int DigitalConv_main ()
         scanf("%d", &g);
         graytobin(g);
 
-    }
+    }/*
     else if(choice == 3)
     {
         long bcd;
@@ -318,7 +318,7 @@ int DigitalConv_main ()
         
              printf("%d",bcd[i]);
 
-    }
+    }*/
     printf("\nDo you wish to continue with Digital Conversions menu?(y/n):");
    	scanf(" %c",&a);}
     return 0;
