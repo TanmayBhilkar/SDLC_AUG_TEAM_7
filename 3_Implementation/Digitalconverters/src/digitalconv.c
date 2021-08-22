@@ -38,9 +38,10 @@ int graytobin(int n)
     printf("%d",a[i]);
 }
 
-int *bcdtox3(long num,int *xt)
+int bcdtox3(int num)
 {
-    int rem,decimal_num=0,base=1,i;
+    int rem,decimal_num=0,base=1,i,s=0;
+    int xt[10];
     while ( num > 0)  
     {  
         rem = num % 10;  
@@ -55,13 +56,21 @@ int *bcdtox3(long num,int *xt)
     {    
         xt[i]=decimal_num%2;    
         decimal_num=decimal_num/2;    
-    }    
-         return xt;
+    }   
+   
+         
+   while(i)
+     {
+         
+         s+=xt[i-1] *pow(10,i-1);
+        --i;
+     }
+    return s;
 }
 
-int *x3tobcd(int num,int *bc)
+int x3tobcd(int num)
 {
-    int rem,decimal_num=0,base=1,i;
+    int rem,decimal_num=0,base=1,i,s=0,bc[10];
    
     while ( num > 0)  
     {  
@@ -78,6 +87,12 @@ int *x3tobcd(int num,int *bc)
         bc[i]=decimal_num%2;    
         decimal_num=decimal_num/2;    
     }    
-    return bc;    
+       while(i)
+     {
+         
+         s+=bc[i-1] *pow(10,i-1);
+        --i;
+     }
+    return s;
      
 }
