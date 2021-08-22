@@ -25,7 +25,7 @@ int graytobin(int);
  * @param num
  * @return int
  */
-
+/*
 int *bcdtox3(long,int *);
 
 /**
@@ -36,5 +36,5 @@ int *bcdtox3(long,int *);
  */
 
 int *x3tobcd(int,int *);
-
+/*
 #endif
