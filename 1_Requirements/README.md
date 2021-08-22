@@ -1,6 +1,6 @@
 # Requirements
 ## Introduction
-This product is a powerful tool which helps in designing and implementing electronic circuits. It has various components as features like Filters, Amplifiers, Logic gates, etc which are related to electronics. It takes input from the user through Command line and gives the output through the same.
+This product is a powerful tool which helps in designing and implementing electronic circuits. It has various components as features like Filters, Oscillators, Amplifiers, Logic gates, etc which are related to electronics. It takes input from the user through Command line and gives the output through the same.
 
 ## Research
 Many websites were available which would implement only one of the features of our product alone. For example, there are pages or sites for calculating fiters' RC values or implementing logic gates. But we could not find anything integrated to this extent.
@@ -38,7 +38,7 @@ Many websites were available which would implement only one of the features of o
 | 01 | Design of filters | Taking input like frequency and gain from the user and returning the circuit parameters for design | 
 | 02 | OP-AMP |Just to check Wheteher the given parameter forms the given Amplifier or Not. and Find out the output Voltage|
 | 03 | Logic Gates | To implement different Logic gates like AND, OR, NOT, NAND, NOR, XOR, and XNOR Gates |  
-| 04 | Design of Oscillators | Taking input like frequency and gain from the user and returning the circuit parameters for design of that oscillator |
+| 04 | Design of Oscillators | Taking input like oscillating frequency, oscilaltor amplitude gain and feedback fraction from the user and returning the circuit parameters for design of that oscillator circuit |
 | 05 | Flip Flops | Implement different Flip Flops and give the next state to the user |
 | 06 | Number system conversions | To implement conversion of numbers from one system to the other i.e binary,decimal,octal,hexadecimal |
 | 07 | Rectifier | To design different rectifiers by talking input from the user for various parameters |
@@ -76,4 +76,6 @@ Many websites were available which would implement only one of the features of o
 | LR61 | Application Should Be Able to Give Output According to the Op-Amp| HR06| TBD |
 | LR71 | Op-Amp_Part-B Should Print output Voltage by taking inputs for input votages and Resistances| HR02,HR03 |TBD|
 | LR72 | Op-Amp_Part-B should give the choice to user to choose various opamps available| HR01 |TBD|
-
+| LR81 | Oscillators, Application should consider the different types of oscillators to design using Op Amp| HR01 |TBD|
+| LR82 | Oscillators, Application takes oscillating frequency, oscillator amplitude gain, feedback fraction as inputs depending on the oscillator circuit selected| HR02 |TBD|
+| LR83 | Oscillators, Application should print the circuit design parameters of the selected oscillator circuit| HR03 |TBD|
