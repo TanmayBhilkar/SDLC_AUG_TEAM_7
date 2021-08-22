@@ -31,6 +31,7 @@ void test_graytobin(void)
 
 
 }
+/*
 void test_bcdtox3(void)
 {
        TEST_ASSERT_EQUAL(0110, bcdtox3(1001));
@@ -45,6 +46,7 @@ void test_x3tobcd(void)
 
 
 }
+*/
 
 int main(void)
 {
@@ -52,8 +54,8 @@ int main(void)
     UNITY_BEGIN();
     RUN_TEST(test_bintogray);
     RUN_TEST(test_graytobin);
-    RUN_TEST(test_bcdtox3);
-    RUN_TEST(test_x3tobcd);
+   // RUN_TEST(test_bcdtox3);
+   // RUN_TEST(test_x3tobcd);
  
     return UNITY_END();
 }
