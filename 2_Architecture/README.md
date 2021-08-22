@@ -33,3 +33,9 @@
 
 ![Flowchart](https://user-images.githubusercontent.com/80768202/130322891-c2c4ab16-992e-48ca-9dc0-3ec3fe7e59cf.png)
 
+
+
+* Oscillator Use Case Diagram
+
+
+![Oscillator Use Case Diagram](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/blob/main/2_Architecture/images/oscillator%20use%20case.png)
