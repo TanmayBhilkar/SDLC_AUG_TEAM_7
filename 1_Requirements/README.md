@@ -54,7 +54,7 @@ Many websites were available which would implement only one of the features of o
 | HR04 | Application should work on both Linux and Windows | TBD |
 | HR05 | Application should follow clean code rules | TBD |
 | HR06 | Op-Amp Application Should Print Voltage to User|TBD|
-
+| HR07| Adders must add binary inputs and display the output to user| TBD | 
 
 ##  Low level Requirements:
  
@@ -80,3 +80,5 @@ Many websites were available which would implement only one of the features of o
 | LR81 | Oscillators, Application should consider the different types of oscillators to design using Op Amp| HR01 |TBD|
 | LR82 | Oscillators, Application takes oscillating frequency, oscillator amplitude gain, feedback fraction as inputs depending on the oscillator circuit selected| HR02 |TBD|
 | LR83 | Oscillators, Application should print the circuit design parameters of the selected oscillator circuit| HR03 |TBD|
+| LR84 | Adders, Application should add binary numbers and produce output| HR07 | TBD |
+| LR85 | Subtractors, Application should subtract binary numbers and produce output| HR07 | TBD |
