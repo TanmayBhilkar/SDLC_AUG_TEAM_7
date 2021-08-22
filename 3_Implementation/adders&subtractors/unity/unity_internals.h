@@ -143,7 +143,7 @@
   /* 64-bit Support */
   #if (UNITY_LONG_WIDTH == 32)
     typedef unsigned long long UNITY_UINT64;
-    typedef signed long long   UNITY_INT64;
+    typedef signed long long UNITY_INT64;
   #elif (UNITY_LONG_WIDTH == 64)
     typedef unsigned long      UNITY_UINT64;
     typedef signed long        UNITY_INT64;

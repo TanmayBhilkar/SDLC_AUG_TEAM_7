@@ -1,6 +1,6 @@
-#include"unity.h"
-#include"header.h"
-#include "unity.c"
+#include "unity.h"
+#include "header.h"
+
 
 void setUp()
 {
@@ -35,7 +35,7 @@ void test_Full_Subtractor_Dif(void)
     
 
 }
-void testFull_Subtractor_bout(void)
+void test_Full_Subtractor_bout(void)
 {
        TEST_ASSERT_EQUAL(1, Full_Subtractor_bout(1,1,1));
     
@@ -73,6 +73,6 @@ int main(){
     RUN_TEST(test_halfadd);
     RUN_TEST(test_halfadd_carry);
     RUN_TEST(test_halfsub);
-    RUN_TEST(test_halfsub_b)
+    RUN_TEST(test_halfsub_b);
     return UNITY_END();
 }
