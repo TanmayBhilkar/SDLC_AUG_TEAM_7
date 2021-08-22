@@ -8,8 +8,8 @@ SRC = $(wildcard src/*.c)
 TEST_SRC = test/test_function.c\
 unity/unity.c
 
-INC = -I inc\
--I unity\
+INC = -Iinc\
+-Iunity
 
 #To check if the OS is Windows or Linux and set the executable file extension and delete command accordingly
 ifdef OS

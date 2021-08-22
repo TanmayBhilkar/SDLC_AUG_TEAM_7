@@ -6,6 +6,20 @@
 #include "LogicGates.h"
 #include "rect.h"
 #include "oscillator.h"
+#include "headers.h"
+#include "digitalheader.h"
+
+int OpAmpB_main()
+{   char a='y';
+	while(a=='y' || a=='Y'){
+    int ch;
+    printf("\nWhich opamp Do You Want To Use\n\t 1. Voltage Follower\n\t 2. Inverting Summing Amplifier\n\t 3. Non-Inverting Summing Amplifier\n\t 4. Converter current voltage Amplifier\n\n");
+    scanf("%d", &ch);
+    choice(ch);
+    printf("\nDo you wish to continue with Op-Amps Part B?(y/n):");
+    scanf(" %c",&a);}
+    return 0;
+}
 
 int filter_main()
 {
@@ -38,7 +52,6 @@ int FlipFlop_main(){
 
 int LogicGates_main()
 {
-    
     char option;
     int a;
     int number;
@@ -112,38 +125,24 @@ E for NOR Gate \n F for XOR Gate \n G for XNOR Gate \n");
     XNORgate(arr,number);
     break;
     
-default:
-printf("Please choose a valid option\n");
+    default:
+    printf("Please choose a valid option\n");
 
-}
-}
-else printf("Please enter a valid option\n");
-        return 0;
-}
-
-int Oscillator_main()
-{
-    char osc_option='y';
-	while(osc_option=='y' || osc_option=='Y')
-    {
-        // Call the oscillator circuits menu
-        osc_display();
-        char osc_choice;
-        // User selects the oscillator circuit
-        scanf(" %c",&osc_choice);
-        // Oscillator Circuits Driver Program
-        osc_select(osc_choice);
-        printf("\nDo you wish to continue with design of oscillators?(y/n):");
-        scanf(" %c",&osc_option);
     }
+
+}
+    else {printf("Please enter a valid option\n");}
     return 0;
 }
+
 int OpAmps_main() 
 {
-int ch;
-double Rf, Rin, res;
-double Vin,V1;
-double res1,res2,res3;
+    char a='y';
+	while(a=='y' || a=='Y'){
+    int ch;
+    double Rf, Rin, res;
+    double Vin,V1;
+    double res1,res2,res3;
 
     printf("\nWhich opamp Do You Want To Use\n\t 1. Inverting Amplifier \n\t 2. Non-Inverting Summing Amplifier\n\t 3. Differntiaterr\n\t 4. Summing\n\t");
 
@@ -189,12 +188,16 @@ double res1,res2,res3;
     default:
         printf("Wrong Choice");
     }
+    printf("\nDo you wish to continue with op-amps menu?(y/n):");
+   	scanf(" %c",&a);}
 
     return 0;
 }
 
 
 int Rectifier_main(){
+    char a='y';
+	while(a=='y' || a=='Y'){
     char option;
     float Vm, Vrpp, Vac;  /* defining variables */
     int eff_choice;
@@ -240,18 +243,94 @@ int Rectifier_main(){
         break;
 
         default: 
-          return 0;
-    }  
+        return 0;
+    }
+    printf("\nDo you wish to continue with Rectifiers menu?(y/n):");
+   	scanf(" %c",&a);}
+  
     return 0;
 
 }
+
+int Oscillator_main()
+{   char a='y';
+	while(a=='y' || a=='Y'){
+    // Call the oscillator circuits menu
+    osc_display();
+    char osc_choice;
+    // User selects the oscillator circuit
+    scanf(" %c",&osc_choice);
+    // Oscillator Circuits Driver Program
+    osc_select(osc_choice);
+    printf("\nDo you wish to continue with Oscillators menu?(y/n):");
+   	scanf(" %c",&a);}
+
+    return 0;
+}
+
+int DigitalConv_main ()
+{   char a='y';
+	while(a=='y' || a=='Y'){
+    int choice;
+    printf("Digital Conversions: \n Select your choice:");
+    printf("\n1. Binary to gray \n2. Gray to binary \n3. BCD to excess 3 \n4. Excess 3 to BCD");
+    printf("\nChoice:");
+    scanf("%d",&choice);
+    if(choice == 1)
+    {
+        int bin, gray;
+    
+        printf("Enter Binary:");
+        scanf("%d",&bin);
+        gray = bintogray(bin);
+        printf("The gray code of %d is %d\n", bin, gray);
+    }
+
+    else if (choice == 2)
+    {
+        int g;
+        printf("Enter the gray code: ");
+        scanf("%d", &g);
+        graytobin(g);
+
+    }
+    else if(choice == 3)
+    {
+        long bcd;
+        int *x3,i,xt[10];;
+        printf("Enter valid 4bit BCD:");
+        scanf("%d",&bcd);
+        x3=bcdtox3(bcd,xt);
+        printf("\nExcess3 of Given Number is=");    
+        for(i=i-1;i>=0;i--)    
+        
+             printf("%d",x3[i]);
+
+    }
+    else if(choice == 4)
+    {
+        int x,*bcd,i,bc[10];
+        printf("Enter valid 4 bit Excess 3 code:");
+        scanf("%d",&x);
+        bcd =x3tobcd(x,bc);
+        printf("\nBCD of Given Number is=");    
+        for(i=i-1;i>=0;i--)    
+        
+             printf("%d",bcd[i]);
+
+    }
+    printf("\nDo you wish to continue with Digital Conversions menu?(y/n):");
+   	scanf(" %c",&a);}
+    return 0;
+}
+ 
 
 int main(){
     printf("**************************  WELCOME  **************************\n");
     printf("This is a project which will help you design and implement various electronics circuits and logics!\n");
     printf("Refer the below chart to use the features with their respective codes:\n");
     printf("A: Design of Filters\nB: Rectifiers\nC: Logic Gates\nD: Oscillators\nE: Op-Amps\n" );
-    printf("F: Flip Flops\n");
+    printf("F: Flip Flops\nG: Op-amps Part B\nH: Digital Converters\n");
     printf("Enter a feature you want to use : ");
     char key;
     scanf("%c",&key);
@@ -268,7 +347,7 @@ int main(){
         case 'C':
         LogicGates_main();
         break;
-
+        
         case 'D':
         Oscillator_main();
         break;
@@ -279,6 +358,14 @@ int main(){
 
         case 'F':
         FlipFlop_main();
+        break;
+
+        case 'G':
+        OpAmpB_main();
+        break;
+
+        case 'H':
+        DigitalConv_main();
         break;
 
         default:
