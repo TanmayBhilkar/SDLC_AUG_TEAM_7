@@ -48,3 +48,4 @@ bit halfsub_b(bit A,bit B){
     return !A&B;
    
 }
+
