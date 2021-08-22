@@ -5,6 +5,7 @@
 #include "LogicGates.h"
 #include"Header.h"
 #include "headers.h"
+#include "digitalheader.h"
 #include "unity.h"
 
 
@@ -388,6 +389,40 @@ void test_con_cur_vtg()
     
 }
 
+//---------------------Digital Converters -------------------------------
+void test_bintogray(void)
+{
+       TEST_ASSERT_EQUAL(011, bintogray(010));
+       TEST_ASSERT_EQUAL(010, bintogray(011));
+       TEST_ASSERT_EQUAL(110, bintogray(100));
+
+
+}
+
+void test_graytobin(void)
+{
+       TEST_ASSERT_EQUAL(010, graytobin(011));
+       TEST_ASSERT_EQUAL(011, graytobin(010));
+       TEST_ASSERT_EQUAL(100, graytobin(110));
+
+
+}
+/*void test_bcdtox3(void)
+{
+       TEST_ASSERT_EQUAL(0110, bcdtox3(1001));
+       
+
+
+}
+void test_x3tobcd(void)
+{
+       TEST_ASSERT_EQUAL(1001, x3tobcd(0110));
+       
+
+
+}
+
+*/
 
 int main(){
     UNITY_BEGIN();
@@ -439,6 +474,12 @@ int main(){
     RUN_TEST(test_inv_sum);
     RUN_TEST(test_non_inv_sum);
     RUN_TEST(test_con_cur_vtg);
+	
+    //------Digital Converters----------
+    RUN_TEST(test_bintogray);
+    RUN_TEST(test_graytobin);
+    //RUN_TEST(test_bcdtox3);
+    //RUN_TESTtest_x3tobcd);
 
     return UNITY_END();
 }
