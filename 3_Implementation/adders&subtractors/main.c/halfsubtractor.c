@@ -1,7 +1,7 @@
 int main()
 {
  int i,j,result;
- printf("A   B  |  Diff  Borrow\n");
+ printf("A   B  |  Difference  Borrow\n");
  for(i=0;i<2;i++)
  {
   for(j=0;j<2;j++)
