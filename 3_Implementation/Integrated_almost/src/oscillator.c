@@ -23,7 +23,7 @@ void osc_display()
     printf("******************************WELCOME******************************\n\n");
     printf("This is a project that will give you the parameters to design different oscillators.\n");
     printf("Refer the below chart to choose your oscillator\n");
-    printf("A - RC Phase Shift Oscillator\nB - Wein Bridge Oscillator\nC - Colpitts Oscillator\nD - Astable Multivibrator\nE - Monostable Multivibrator\n");
+    printf("A - RC Phase Shift Oscillator\nB - Wein Bridge Oscillator\nC - Colpitts Oscillator\nD - Astable Multivibrator\nE - Monostable Multivibrator\nF - Exit\n");
     printf("Note : The operating frequency range is from 0.1kHz to 250kHz");
     printf("\nEnter the code of the oscillator of your choice\n");
 }
@@ -86,7 +86,7 @@ osc_condition osc_select(char ch)
     {
         printf("\n!!! Enter the correct alphabet !!! \n");
         printf("\nRefer the below chart to choose your filter\n");
-        printf("A - RC Phase Shift Oscillator\nB - Wein Bridge Oscillator\nC - Colpitts Oscillator\nD - Astable Multivibrator\nE - Monostable Multivibrator\n");
+        printf("A - RC Phase Shift Oscillator\nB - Wein Bridge Oscillator\nC - Colpitts Oscillator\nD - Astable Multivibrator\nE - Monostable Multivibrator\nF - Exit\n");
         flag=-1;
     }
 
@@ -97,6 +97,7 @@ osc_condition osc_select(char ch)
         case 'C':osc_colpitts(&params);break;
         case 'D':osc_astable_mvr(&params);break;
         case 'E':osc_monostable_mvr(&params);break;
+        case 'F': printf("Thank you for using the oscillator design section!");exit; break;
         default:flag=-1;break;
     };
 

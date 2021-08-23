@@ -1,4 +1,5 @@
 PROJ_NAME = Electronics_lab
+
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
 BUILD_DIR = Build
@@ -9,11 +10,19 @@ TEST_SRC = test/test_function.c\
 unity/unity.c
 
 TEST_SRC1 = test/test_function.c\
-$(wildcard src/*.c)\
-unity/unity.c
+src/addersub.c\
+src/capacitor.c\
+src/FlipFlop.c\
+src/functions.c\
+src/logicgates.c\
+src/op-amp_B.c\
+src/opm.c\
+src/oscillator.c\
+src/rect.c\
+unity/unity.c\
 
-INC = -Iinc\
--Iunity
+INC = -I inc\
+-I unity\
 
 #To check if the OS is Windows or Linux and set the executable file extension and delete command accordingly
 ifdef OS
@@ -62,6 +71,6 @@ $(BUILD):
 
 # Coverage 
 coverage:
-	gcc -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC1) $(INC) -o $(PROJECT_NAME)
-	./$(PROJECT_NAME)
+	gcc -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC1) $(INC) -o $(PROJ_NAME) -lm
+	./$(PROJ_NAME)
 	gcovr -r .
