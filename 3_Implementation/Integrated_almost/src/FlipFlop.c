@@ -14,19 +14,19 @@ void display_1(void)
 
 int input_1(int *a,int *b,int *c)
 {
-	scanf(" %d%d%d",&a,&b,&c);
+	scanf(" %d%d%d",a,b,c);
 	return 0;
 }
 
 int input_2(int *a, int *b)
 {
-	scanf(" %d%d",&a, &b);
+	scanf(" %d%d",a, b);
 	return 0;
 }
 
 int input_3(int *a)
 {
-	scanf(" %d",&a);
+	scanf(" %d",a);
 	return 0;
 }
 
