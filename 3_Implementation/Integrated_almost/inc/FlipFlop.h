@@ -91,4 +91,3 @@ int dflipflop(int x);
 int tflipflop(int x,int z);
 
 #endif /*__FLIP_FLOP_H__*/
-
