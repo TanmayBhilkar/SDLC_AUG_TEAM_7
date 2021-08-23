@@ -1,7 +1,7 @@
 #include "filter.h"
 #include "rect.h"
 #include"oscillator.h"
-#include "Flip_Flop.h"
+#include "FlipFlop.h"
 #include "LogicGates.h"
 #include"Header.h"
 #include "headers.h"
