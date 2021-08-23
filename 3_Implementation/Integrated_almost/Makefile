@@ -63,10 +63,6 @@ clean:
 	
 	rmdir $(BUILD_DIR) 
 
-#Valgrind
-valgrind:
-	valgrind $(TEST_OUTPUT).$(EXEC)
-
 # Create new Build folder if not present
 $(BUILD):
 	mkdir Build
