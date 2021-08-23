@@ -44,7 +44,7 @@
 
 * Rectifier Activity Diagram
 
-![Rectifier Activity Diagram](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/blob/main/2_Architecture/images/Rectifier_Activity%20diagram.png)
+![Rectifier Activity Diagram](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/blob/main/2_Architecture/images/rectifierActivityUML.PNG)
 
 
 * Flip Flop Activity Diagram
