@@ -1,4 +1,4 @@
-#include "header.h"
+#include "Header.h"
 #include<stdio.h>
 
 int Inv(double Rf,double Rin,double Vin)
