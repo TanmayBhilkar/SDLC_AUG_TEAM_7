@@ -12,6 +12,51 @@ void display_1(void)
     printf("D: T FLip Flop\n");
 }
 
+int input_1(int *a,int *b,int *c)
+{
+	scanf(" %d%d%d",&a,&b,&c);
+	return 0;
+}
+
+int input_2(int *a)
+{
+	scanf(" %d",&a);
+	return 0;
+}
+
+int input_3(int *a,int *b)
+{
+	scanf(" %d%d",&a,&b);
+	return 0;
+}
+
+int output(int p)
+{
+	printf("Q(next)=%d\n",p);
+	printf("Program ended!\n");
+	return 0;
+}
+
+int srflipflop(int x,int y,int z)
+{
+	return (x + (~(y) & z));
+}
+
+int jkflipflop(int x,int y,int z)
+{
+	return (x & ~(z) | z & ~(y));
+}
+
+int dflipflop(int x)
+{
+	return x;
+}
+
+int tflipflop(int x,int z)
+{
+	return x & ~(z) | z & ~(x);
+}
+
 int option(char c)
 {	int g;
 	int M=0,N=0,Q=0;
@@ -75,48 +120,5 @@ int option(char c)
 	return 0;
 }
 
-int input_1(int *a,int *b,int *c)
-{
-	scanf(" %d%d%d",&a,&b,&c);
-	return 0;
-}
 
-int input_2(int *a)
-{
-	scanf(" %d",&a);
-	return 0;
-}
-
-int input_3(int *a,int *b)
-{
-	scanf(" %d%d",&a,&b);
-	return 0;
-}
-
-int output(int p)
-{
-	printf("Q(next)=%d\n",p);
-	printf("Program ended!\n");
-	return 0;
-}
-
-int srflipflop(int x,int y,int z)
-{
-	return (x + (~(y) & z));
-}
-
-int jkflipflop(int x,int y,int z)
-{
-	return (x & ~(z) | z & ~(y));
-}
-
-int dflipflop(int x)
-{
-	return x;
-}
-
-int tflipflop(int x,int z)
-{
-	return x & ~(z) | z & ~(x);
-}
 
