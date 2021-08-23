@@ -3,7 +3,7 @@
 This product is a powerful tool which helps in designing and implementing electronic circuits. It has various components as features like Filters, Oscillators, Amplifiers, Logic gates, etc which are related to electronics. It takes input from the user through Command line and gives the output through the same.
 
 ## Research
-Many websites were available which would implement only one of the features of our product alone. For example, there are pages or sites for calculating fiters' RC values or implementing logic gates. But we could not find anything integrated to this extent.
+Many websites were available which would implement only one of the features of our product alone. For example, there are pages or sites for calculating filters RC values or implementing logic gates. But we could not find anything integrated to this extent.
 
 ## State of Art
 ### Ageing - Time
@@ -14,7 +14,7 @@ Many websites were available which would implement only one of the features of o
 ## 4W&#39;s and 1&#39;H
 
 ### Who:
- * Electical,Electronics,control systems,instrumentation engineers and students;people who need to design or use circuits related to electronics.
+ * Electical, Electronics, control systems, instrumentation engineers, students and people who need to design or use circuits related to electronics.
 
 ### What:
  * This project gives out the parameters or the values required to design or implelment the type of electronic component according to the user inputs. 
@@ -36,7 +36,7 @@ Many websites were available which would implement only one of the features of o
 | Sl. No. | Component | Description |
 | ------- | ----------- | ------------- |
 | 01 | Design of filters | Taking input like frequency and gain from the user and returning the circuit parameters for design | 
-| 02 | OP-AMP |Just to check Wheteher the given parameter forms the given Amplifier or Not. and Find out the output Voltage|
+| 02 | OP-AMP |Just to check Whether the given parameter forms the given Amplifier or Not. and Find out the output Voltage|
 | 03 | Logic Gates | To implement different Logic gates like AND, OR, NOT, NAND, NOR, XOR, and XNOR Gates |  
 | 04 | Design of Oscillators | Taking input like oscillating frequency, oscilaltor amplitude gain and feedback fraction from the user and returning the circuit parameters for design of that oscillator circuit |
 | 05 | Flip Flops | Implement different Flip Flops and give the next state to the user |
@@ -82,6 +82,6 @@ Many websites were available which would implement only one of the features of o
 | LR82 | Oscillators: Application takes oscillating frequency, oscillator amplitude gain, feedback fraction as inputs depending on the oscillator circuit selected| HR02 |TBD|
 | LR83 | Oscillators: Application should print the circuit design parameters of the selected oscillator circuit| HR03 |TBD|
 | LR91 | Adders, Application should add binary numbers and produce output| HR07 | TBD |
-| LR91 | Subtractors, Application should subtract binary numbers and produce output| HR07 | TBD |
+| LR92 | Subtractors, Application should subtract binary numbers and produce output| HR07 | TBD |
 | LR101| Application should be able to able to convert binary code to gray code and vice versa upon user input| HR02,HR03 | TBD|
 | LR102| Application should be able to able to convert BCD to Excess 3 code and vice versa upon user input| HR02,HR03 | TBD|
