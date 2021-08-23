@@ -47,3 +47,17 @@ clean:
 	$(RM) $(call FixPath,$(BUILD_DIR)/*)
 	
 	rmdir $(BUILD_DIR) 
+
+#Valgrind
+valgrind:
+	valgrind ./$(TEST_OUTPUT).$(EXEC)
+
+# Create new Build folder if not present
+$(BUILD):
+	mkdir Build
+
+# Coverage 
+coverage:
+	gcc -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC) $(INC) -o $(PROJECT_NAME) -lm
+	./$(PROJECT_NAME)
+	gcovr -r .
