@@ -8,8 +8,8 @@ void display_1(void)
     printf("\nFrom the given choices choose the flip flop you'd like to check the output for: \n");
     printf("A: S R Flip Flop\n");
     printf("B: J K Flip Flop\n");
-    printf("C: D Flip Flop\n");
-    printf("D: T FLip Flop\n");
+    printf("C: T Flip Flop\n");
+    printf("D: D FLip Flop\n");
 }
 
 int input_1(int *a,int *b,int *c)
@@ -90,7 +90,7 @@ int option(char c)
 		
 		case 'C':
 		case 'c':
-			printf("Enter T, & Q values(enter binary values): ");
+			printf("Enter T & Q values(enter binary values): ");
 			input_2(&M, &Q);
 			if((M!=0 && M!=1) || (Q!=0 && Q!=1))
 			{
