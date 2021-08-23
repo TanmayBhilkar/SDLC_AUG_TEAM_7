@@ -29,3 +29,4 @@ Folder                     | Description
 |8|Prakruthi B R  |Digital circuits| Adder and subtractor | | |  
 |99005735|Sakshi |Rectifier| Half Wave, Full Wave Rectifiers, Bridge Rectifier & Rectifier with Filter| 04 | 04 |
 |10|Jayashree.S | Flip FLops | SR Flip Flop, JK Flip Flop, D Flip FLop, T Flip Flop | | |
+|99005746|Prajakta  | Op-Amps_Part-B | Voltage Follower, Inverting Summing ,Non-Inverting Summing, Converter Current Voltage | | |
