@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "flip_flop.h"
+#include "FlipFlop.h"
 
 
 void display_1(void)
@@ -18,15 +18,15 @@ int input_1(int *a,int *b,int *c)
 	return 0;
 }
 
-int input_2(int *a)
+int input_2(int *a, int *b)
 {
-	scanf(" %d",&a);
+	scanf(" %d%d",&a, &b);
 	return 0;
 }
 
-int input_3(int *a,int *b)
+int input_3(int *a)
 {
-	scanf(" %d%d",&a,&b);
+	scanf(" %d",&a);
 	return 0;
 }
 
@@ -59,7 +59,7 @@ int tflipflop(int x,int z)
 
 int option(char c)
 {	int g;
-	int M=0,N=0,Q=0;
+	int M,N,Q;
 	switch(c)
 	{
 		case 'A':
@@ -90,21 +90,8 @@ int option(char c)
 		
 		case 'C':
 		case 'c':
-			printf("Enter D value(enter binary value): ");
-			input_2(&M);
-			if(M!=0 && M!=1)
-			{
-				printf("Please enter a binary value!\n");
-				break;
-			}
-			g=dflipflop(M);		
-			output(g);	
-			break;
-		
-		case 'D':
-		case 'd':
 			printf("Enter T, & Q values(enter binary values): ");
-			input_3(&M, &Q);
+			input_2(&M, &Q);
 			if((M!=0 && M!=1) || (Q!=0 && Q!=1))
 			{
 				printf("Please enter a binary value!\n");
@@ -113,12 +100,22 @@ int option(char c)
 			g=tflipflop(M,Q);		
 			output(g);	
 			break;
-		
+	
+		case 'D':
+		case 'd':
+			printf("Enter D value(enter binary value): ");
+			input_3(&M);
+			if(M!=0 && M!=1)
+			{
+				printf("Please enter a binary value!\n");
+				break;
+			}
+			g=dflipflop(M);		
+			output(g);	
+			break;
+			
 		default:
 			printf("Please enter a valid option");
 	}
 	return 0;
 }
-
-
-
