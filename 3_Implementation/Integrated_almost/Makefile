@@ -65,7 +65,7 @@ clean:
 
 #Valgrind
 valgrind:
-	valgrind ./$(TEST_OUTPUT).$(EXEC)
+	valgrind $(TEST_OUTPUT).$(EXEC)
 
 # Create new Build folder if not present
 $(BUILD):
