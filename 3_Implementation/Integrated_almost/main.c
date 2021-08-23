@@ -55,89 +55,132 @@ int FlipFlop_main()
 
 int LogicGates_main()
 {
+    char j='y';
+    while(j=='y'|| j=='Y'){
     char option;
     int a;
     int number;
     
     printf("Enter:\n A for AND Gate \n B for OR Gate \n C for NOT Gate \n D for NAND Gate \n \
-E for NOR Gate \n F for XOR Gate \n G for XNOR Gate \n");
+E for NOR Gate \n F for XOR Gate \n G for XNOR Gate \n J to EXIT\n");
     scanf(" %c",&option);
-    printf("\n Enter the number of inputs: 1 for NOT gate, and 2 or 3 for other gates\n");
+    if (option=='A' || option=='a' || option=='B' || option=='b' || option=='C' || option=='c'|| option=='D' || option=='d' || option=='E' || option=='e' || option=='F' || option=='f'|| option=='G'||option=='g')
+    {
+    printf("\n Enter the number of inputs: 1 for NOT gate, and 2 or 3 other gates\n");
     scanf("%d",&number);
     
-        if(number==1||number==2||number==3)
+    if(number==1||number==2||number==3)
     {
        
     
     
-    int arr[number];
+    int arr[number],bincheck=-1;
     switch(option)
     {
     case 'a':
     case 'A':
     
     display_3(number);
-    inputs(arr,number);
+    bincheck=inputs(arr,number);
+    if(bincheck==0)
+    {
     ANDgate(arr,number);
+    }
+    else 
+    printf("\nPlease enter a valid input (Binary: 0 or 1) \n");
     break;
         
     case 'b':
     case 'B':
     
     display_3(number);
-    inputs(arr,number);
+    bincheck=inputs(arr,number);
+    if(bincheck==0)
+    {
     ORgate(arr,number);
+    }
+    else printf("\nPlease enter a valid input (Binary: 0 or 1) \n");
     break;
     
     case 'c':
     case 'C':
-     
-    display_3(number);
+     if(number==1)
+    {
+        printf("Enter a Binary value\n");
     scanf("%d",&a);
-    NOTgate(a);
+    if(a==1||a==0)
+        NOTgate(a);
+        }
+        else printf("\nPlease enter a valid input!!\n");
     break;
     
     case 'd':
     case 'D':
     
     display_3(number);
-    inputs(arr,number);
+    bincheck=inputs(arr,number);
+    if(bincheck==0)
+    {
     NANDgate(arr,number);
+    }
+    else printf("\nPlease enter a valid input (Binary: 0 or 1) \n");
     break;
     
     case 'e':
     case 'E':
     
     display_3(number);
-    inputs(arr,number);
+    bincheck=inputs(arr,number);
+    if(bincheck==0)
+    {
     NORgate(arr,number);
+    }
+    else printf("\nPlease enter a valid input (Binary: 0 or 1) \n");
     break;
     
     case 'f':
     case 'F':
     
     display_3(number);
-    inputs(arr,number);
+    bincheck=inputs(arr,number);
+    if(bincheck==0)
+    {
     XORgate(arr,number);
+    }
+    else printf("\nPlease enter a valid input (Binary: 0 or 1) \n");
     break;
     
     case 'g':
     case 'G':
     display_3(number);
-    inputs(arr,number);
+    bincheck=inputs(arr,number);
+    if(bincheck==0)
+    {
     XNORgate(arr,number);
+    }
+    else printf("\nPlease enter a valid input (Binary: 0 or 1) \n");
     break;
     
     default:
-    printf("Please choose a valid option\n");
+    printf("\nPlease choose a valid option\n");
+    break;
 
     }
-
-}
-    else {printf("Please enter a valid option\n");}
+    }
+    else {
+        printf("\nPlease enter a valid number as shown\n");
+    }
+    }
+    else if(option=='j'||option=='J')
+    return 0;
+    else {
+        printf("\nPlease enter a valid input!!\n");
+    }
+    printf("\nDo you wish to continue with logic gates menu?(y/n)\n");
+    scanf(" %c",&j);
+    }
     return 0;
 }
-
 int OpAmps_main() 
 {
     char a='y';
