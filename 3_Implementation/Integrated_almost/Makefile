@@ -21,6 +21,8 @@ src/oscillator.c\
 src/rect.c\
 unity/unity.c\
 
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME)
+
 INC = -I inc\
 -I unity\
 
