@@ -24,7 +24,7 @@
 | LLT09 | HLT02 | Logic Gates: Prompt user to choose an option, and number of inputs and check against valid options | char and int | - | - | Scenario based |
 | LLT10 | HLT03 | Logic Gates: Prompt for user inputs and check for a valid input | Binary values | Binary values | Binary Values | Scenario based/Technical |
 | LLT11 | HLT04 | Logic Gates: If invalid input, display error message | - | - | - | Scenario based/Technical |
-| LLT12 | HLT02 | Flip Flops: Prompt user to chooce an option from a menu and check it's validity | char IN A-D or a-d  | Respective case execution | Scenario  |
-| LLT13 | HLT03 | Flip Flops: Check for various user inputs (within limits) and it's respective output  | Calculate Q(next) and return 0  | Calculates Q(next) and returns 0  | Scenario  |
-| LLT14 | HLT04 | Flip Flops: Check for non-binary input  | Print "Non-binary value" and return -1  | Prints "Non-binary value" and returns -1  | Scenario  |
+| LLT12 | HLT02 | Flip Flops: Prompt user to chooce an option from a menu and check it's validity | char IN A-D or a-d | Respective case execution | Respective case execution | Scenario |
+| LLT13 | HLT03 | Flip Flops: Check for various user inputs (within limits) and it's respective output | Calculate Q(next) and return 0 | Calculates Q(next) and returns 0 |  Calculates Q(next) and returns 0 | Scenario |
+| LLT14 | HLT04 | Flip Flops: Check for non-binary input | Print "Non-binary value" and return -1 | Prints "Non-binary value" and returns -1 | Prints "Non-binary value" and returns -1 | Scenario |
 
