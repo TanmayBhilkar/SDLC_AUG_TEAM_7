@@ -8,6 +8,10 @@ SRC = $(wildcard src/*.c)
 TEST_SRC = test/test_function.c\
 unity/unity.c
 
+TEST_SRC1 = test/test_function.c\
+$(wildcard src/*.c)\
+unity/unity.c
+
 INC = -Iinc\
 -Iunity
 
@@ -58,6 +62,6 @@ $(BUILD):
 
 # Coverage 
 coverage:
-	gcc -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC) $(INC) -o $(PROJECT_NAME) -lm
+	gcc -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC1) $(INC) -o $(PROJECT_NAME) -lm
 	./$(PROJECT_NAME)
 	gcovr -r .
