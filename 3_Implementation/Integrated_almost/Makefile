@@ -62,6 +62,6 @@ $(BUILD):
 
 # Coverage 
 coverage:
-	gcc -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC1) $(INC) -o $(PROJECT_NAME) -lm
+	gcc -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC1) $(INC) -o $(PROJECT_NAME)
 	./$(PROJECT_NAME)
 	gcovr -r .
