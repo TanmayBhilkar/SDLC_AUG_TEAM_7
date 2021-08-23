@@ -50,3 +50,8 @@
 * Flip Flop Activity Diagram
 
 ![Flip Flop Activity Diagram](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/blob/main/2_Architecture/images/Flip%20Flop_Activity%20diagram.jpg)
+
+
+* Opamp_Part-B (behavioral Diagram)
+
+![Opamp_Part-B (behavioral Diagram)](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/blob/main/2_Architecture/images/Opamp_Part-B_(Behavioral_Diag).png)
