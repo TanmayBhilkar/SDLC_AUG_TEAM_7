@@ -27,7 +27,7 @@ int output1()
    printf("Enter the number of Capacitors : ");
    scanf("%f", &num);
  
-   printf("\nEnter Value of Each Capacitor : n");
+   printf("\nEnter Value of Each Capacitor in mF : ");
    for (i = 0; i < num; i++) {
       printf("\nC%d : ", i + 1);
       scanf("%f", &c[i]);

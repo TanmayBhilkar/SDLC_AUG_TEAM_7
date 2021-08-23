@@ -10,13 +10,13 @@ void display(void){
     printf("This is a project that will give you the parameters to design different active filters.\n");
     printf("Refer the below chart to choose your filter\n");
     printf("A - First order low pass filter\nB - First order high pass filter\nC - Second order low pass filter\n");
-    printf("D - Second order high pass filter\nE - Bandpass filter\n");
+    printf("D - Second order high pass filter\nE - Bandpass filter\nF - Exit.\n");
     printf("Note : The operating frequency range is 0.1kHz to 250kHz and pass band gain is between 1 to 100 dB\n");
     printf("\nEnter the code of the filter of your choice: \n");
 }
 
 condition check_code(char c){
-    if (c=='A' || c=='B' || c=='C' || c=='D' || c=='E') return Success;
+    if (c=='A' || c=='B' || c=='C' || c=='D' || c=='E' || c=='F') return Success;
     else return code_error;
 }
 
@@ -41,7 +41,11 @@ condition choose_filter(char c){
         printf("\nEnter the pass band gain in dB: ");
         scanf("%f",&params.Av);
         flag=1;
-        }
+    }
+
+    else if (c=='F'){
+        printf("Thank You for using this feature!!\n");
+    }
 
     else {
         printf("\n!!! Enter the correct alphabet !!! \n");
@@ -67,6 +71,9 @@ condition choose_filter(char c){
     }
     else if(c=='E'){
         BPF(&params);
+    }
+    else if(c=='F'){
+        exit;
     }
     else flag=-1;
 

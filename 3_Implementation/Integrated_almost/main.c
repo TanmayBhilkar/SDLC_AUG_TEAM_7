@@ -9,6 +9,7 @@
 #include "headers.h"
 #include "digitalheader.h"
 #include "header1.h"
+#include "capacitor.h"
 
 int OpAmpB_main()
 {   char a='y';
@@ -375,21 +376,36 @@ int AddersAndSub_main()
         printf("Difference = %d B_Out = %d\n",dif,bout);
 
     }
-    printf("\nDo you wish to continue with Digital Conversions menu?(y/n):");
+    printf("\nDo you wish to continue with Adders and Subtractors menu?(y/n):");
    	scanf(" %c",&a);}
     return 0;
 }
 
+int cap_main()
+{   char a='y';
+	while(a=='y' || a=='Y'){
+    int select;
+    printf("\nChoose the combination of capacitors\n\t 1. Series combination\n\t 2. Parallel Combination\n\n");
+    scanf("%d", &select);
+    choose(select);
+    printf("\nDo you wish to continue with Capacitors menu?(y/n):");
+   	scanf(" %c",&a);}
+
+    return 0;
+}
 
 int main(){
+    char z='y';
+	while(z=='y' || z=='Y'){
     printf("**************************  WELCOME  **************************\n");
     printf("This is a project which will help you design and implement various electronics circuits and logics!\n");
     printf("Refer the below chart to use the features with their respective codes:\n");
     printf("A: Design of Filters\nB: Rectifiers\nC: Logic Gates\nD: Oscillators\nE: Op-Amps\n" );
     printf("F: Flip Flops\nG: Op-amps Part B\nH: Digital Converters\nI: Adders and Subtractors\n");
+    printf("J: Capacitors\n ");
     printf("Enter a feature you want to use : ");
     char key;
-    scanf("%c",&key);
+    scanf(" %c",&key);
     switch (key)
     {
         case 'A':
@@ -428,7 +444,13 @@ int main(){
         AddersAndSub_main();
         break;
 
+        case 'J':
+        cap_main();
+        break;
+
         default:
         printf("\nPlease enter correct code!!\n");
     }
+    printf("\nDo you wish to go to the main menu?(y/n):");
+   	scanf(" %c",&z);}
 }
