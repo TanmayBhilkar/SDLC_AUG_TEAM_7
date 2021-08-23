@@ -21,4 +21,8 @@
 | LLT06  | HLT03 | Oscillators: Upper and lower limit violation check for oscillator frequency, amplitude gain and feedback fraction (one or more) | Structure with limit violating values of oscillator frequency, amplitude gain and feedback fraction (one or more) | osc_limits_error (enum) | osc_limits_error (enum) | Scenario/Technical |
 | LLT07  | HLT04 | Oscillators: Circuit Design Parameters Check | Struct with the right input parameters for the given oscillator circuit | Structure containing the expected circuit design parametrs  | Structure containing the calculated circuit design parameters | Technical |
 |LLT08   |  HLT05 | Operational Amplifier : check the various output of various Amplifier of voltage output parameter| Rf,Rin,Vin|Vout of different amplifiers|Vout of differnt Amplifier |Technical|
-| LLT09 | HLT
+| LLT09 | HLT02 | Logic Gates: Prompt user to choose an option, and number of inputs and check against valid options | TBD | - | - | Scenario based |
+| LLT10 | HLT03 | Logic Gates: Prompt for user inputs and check for a valid input | Binary values | Binary values | Binary Values | Scenario based/Technical |
+| LLT11 | HLT04 | Logic Gates: If invalid input, display error message | TBD | TBD | TBD | Scenario based/Technical |
+
+
