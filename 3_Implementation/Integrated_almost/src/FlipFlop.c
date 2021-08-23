@@ -7,8 +7,8 @@ void display_1(void)
 {
     printf("\nFrom the given choices choose the flip flop you'd like to check the output for: \n");
     printf("A: S R Flip Flop\n");
-	printf("B: J K Flip Flop\n");
-	printf("C: D Flip Flop\n");
+    printf("B: J K Flip Flop\n");
+    printf("C: D Flip Flop\n");
     printf("D: T FLip Flop\n");
 }
 
@@ -77,19 +77,19 @@ int option(char c)
 
 int input_1(int *a,int *b,int *c)
 {
-	scanf("%d%d%d",&a,&b,&c);
+	scanf(" %d%d%d",&a,&b,&c);
 	return 0;
 }
 
 int input_2(int *a)
 {
-	scanf("%d",&a);
+	scanf(" %d",&a);
 	return 0;
 }
 
 int input_3(int *a,int *b)
 {
-	scanf("%d%d",&a,&b);
+	scanf(" %d%d",&a,&b);
 	return 0;
 }
 
