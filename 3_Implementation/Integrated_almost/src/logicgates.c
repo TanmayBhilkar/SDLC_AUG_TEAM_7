@@ -1,7 +1,6 @@
 #include "LogicGates.h"
 #include <stdio.h>
 #include <stdlib.h>
-
   int display(int number)
 {
     printf("enter %d space seperated binary values\n", number);
@@ -11,22 +10,12 @@
   int inputs(int *arr,int number)
 {   
         for(int i=0;i<number;i++)
-        {
         scanf("%d",&arr[i]);
-        }
-        for(int i=0;i<number;i++)
-        {
-        if(arr[i]<0||arr[i]>1)
-        {
-            return 1;
-        }
-        }            
             return 0;
 }
 int ANDgate(int *arr,int number)
 {
-
-       int value=1;
+     int value=1;
   // AND 
   for(int i=0;i<number;i++)
         value &= arr[i];
