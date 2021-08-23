@@ -44,6 +44,7 @@ Many websites were available which would implement only one of the features of o
 | 07 | Rectifier | To design different rectifiers by talking input from the user for various parameters |
 | 08 | OP-AMP_Part-B |To check Wheteher the given parameter forms the given Amplifier or Not. and Find out the output Voltage|
 | 09 | Adders and Subtractors | To implement addition and subtraction on binary numbers|
+| 10 | Digital converters | To perform binary to gray code conversion and vice versa as well as BCD to excess 3 code and vice versa|
 
 ## High Level Requirements: 
 | ID | Description | Status |
