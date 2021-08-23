@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "filter.h"
-#include "Flip_Flop.h"
+#include "FlipFlop.h"
 #include "Header.h"
 #include "LogicGates.h"
 #include "rect.h"
@@ -37,8 +37,9 @@ int filter_main()
     return 0;
 }
 
-int FlipFlop_main(){
-    char a='y';
+int FlipFlop_main()
+{
+    	char a='y';
 	while(a=='y' || a=='Y')
 	{
 		display_1();
