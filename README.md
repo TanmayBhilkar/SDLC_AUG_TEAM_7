@@ -21,7 +21,7 @@ Folder                     | Description
 |------|-----|---------|--------|-------|---------|
 |99005726|Pramodh Mahadesh K M|Design of filters|First order,Second order and Bandpass filters| 06 | 06 |
 |2|S Rinitha|Logic Gates|AND, OR, NOT, NAND, NOR, XOR, XNOR Gates| | |
-|3|Tanmay|Op-Amps|inverting,non-inverting,differntial,integretor| | |
+|3|Tanmay|OpAmps_Part-A|inverting,non-inverting,differntial,integretor| | |
 |4|Tejas Holla| Oscillators | RC Phase Shift Oscilaltor, Wein Bridge oscillator, Colpitts Oscillator, Astable Multivibrator and Monostable Multivibrator| 06 | 06 | 
 |5|Akif | Number conversions| Binary to hexa to octal conversions| | |
 |6|Samiksha | Capacitors| Series Capacitors and Parallel Capacitors| | |
@@ -29,3 +29,4 @@ Folder                     | Description
 |8|Prakruthi B R  |Digital circuits| Adder and subtractor | | |  
 |99005735|Sakshi |Rectifier| Half Wave, Full Wave Rectifiers, Bridge Rectifier & Rectifier with Filter| 04 | 04 |
 |10|Jayashree.S | Flip FLops | SR Flip Flop, JK Flip Flop, D Flip FLop, T Flip Flop | | |
+|99005746|Prajakta  | OpAmps_Part-B | Voltage Follower, Inverting Summing ,Non-Inverting Summing, Converter Current Voltage | 04 | 04 |
