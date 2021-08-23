@@ -80,5 +80,7 @@ Many websites were available which would implement only one of the features of o
 | LR81 | Oscillators: Application should consider the different types of oscillators to design using Op Amp| HR01 |TBD|
 | LR82 | Oscillators: Application takes oscillating frequency, oscillator amplitude gain, feedback fraction as inputs depending on the oscillator circuit selected| HR02 |TBD|
 | LR83 | Oscillators: Application should print the circuit design parameters of the selected oscillator circuit| HR03 |TBD|
-| LR84 | Adders, Application should add binary numbers and produce output| HR07 | TBD |
-| LR85 | Subtractors, Application should subtract binary numbers and produce output| HR07 | TBD |
+| LR91 | Adders, Application should add binary numbers and produce output| HR07 | TBD |
+| LR91 | Subtractors, Application should subtract binary numbers and produce output| HR07 | TBD |
+| LR101| Application should be able to able to convert binary code to gray code and vice versa upon user input| HR02,HR03 | TBD|
+| LR102| Application should be able to able to convert BCD to Excess 3 code and vice versa upon user input| HR02,HR03 | TBD|
