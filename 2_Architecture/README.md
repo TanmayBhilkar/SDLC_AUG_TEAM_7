@@ -63,5 +63,5 @@
 
 * Number system conversions Activity diagram
 
-![Number system conversions Activity diagram]
+
 
