@@ -30,13 +30,13 @@ Folder                     | Description
 |99005729|S Rinitha|Logic Gates|AND, OR, NOT, NAND, NOR, XOR, XNOR Gates|07 |07 | 01/01 |
 |99005721|Tanmay|OpAmps_Part-A|inverting,non-inverting,differntial,integretor|06 |06 | 00/02 |
 |99005713|Tejas Holla| Oscillators | RC Phase Shift Oscilaltor, Wein Bridge oscillator, Colpitts Oscillator, Astable Multivibrator and Monostable Multivibrator| 06 | 06 | 00/02 |
-|99005708|MD Akif Ahmed | Number conversions| no. system conversions| 0 | 0 | |
-|99005714|Samiksha | Capacitors| Series Capacitors and Parallel Capacitors|02 |02 | |
-|99005734|Abhijith Ashokan | Digital converter| Binary to gray code and vice versa| 06 | 06 | |
-|99005758|Prakruthi B R  |Digital circuits| Adder and subtractor | 08 | 08 | |
-|99005735|Sakshi |Rectifier| Half Wave, Full Wave Rectifiers, Bridge Rectifier & Rectifier with Filter| 04 | 04 | |
-|99005741|Jayashree.S | Flip FLops | SR Flip Flop, JK Flip Flop, D Flip FLop, T Flip Flop | 04 | 04 | |
-|99005746|Prajakta  | OpAmps_Part-B | Voltage Follower, Inverting Summing ,Non-Inverting Summing, Converter Current Voltage | 04 | 04 | |
+|99005708|MD Akif Ahmed | Number conversions| no. system conversions| 0 | 0 | 00/00 |
+|99005714|Samiksha | Capacitors| Series Capacitors and Parallel Capacitors|02 |02 | 00/00 |
+|99005734|Abhijith Ashokan | Digital converter| Binary to gray code and vice versa| 06 | 06 | 00/00 |
+|99005758|Prakruthi B R  |Digital circuits| Adder and subtractor | 08 | 08 | 00/00 |
+|99005735|Sakshi |Rectifier| Half Wave, Full Wave Rectifiers, Bridge Rectifier & Rectifier with Filter| 04 | 04 | 00/00 |
+|99005741|Jayashree.S | Flip FLops | SR Flip Flop, JK Flip Flop, D Flip FLop, T Flip Flop | 04 | 04 | 00/00 |
+|99005746|Prajakta  | OpAmps_Part-B | Voltage Follower, Inverting Summing ,Non-Inverting Summing, Converter Current Voltage | 04 | 04 | 00/00 |
 
 ## Git Inspector
 
