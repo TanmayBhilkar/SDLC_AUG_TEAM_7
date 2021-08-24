@@ -56,3 +56,8 @@
 
 ![Opamp_Part-B (behavioral Diagram)](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/blob/main/2_Architecture/images/Opamp_Part-B_(Behavioral_Diag).png)
 
+
+* Capacitor Activity Diagram 
+
+![Capacitor ACtivity Diagram](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/blob/main/2_Architecture/images/Capacitor_Activity_Diagram1.jpg)
+
