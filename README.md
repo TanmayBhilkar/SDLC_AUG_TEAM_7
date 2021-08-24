@@ -38,10 +38,12 @@ Folder                     | Description
 |99005741|Jayashree.S | Flip FLops | SR Flip Flop, JK Flip Flop, D Flip FLop, T Flip Flop | 04 | 04 | 00/00 |
 |99005746|Prajakta  | OpAmps_Part-B | Voltage Follower, Inverting Summing ,Non-Inverting Summing, Converter Current Voltage | 04 | 04 | 00/00 |
 
-## Git Inspector
+## Git Inspector and Contribution
 
 ![GitInspector 1](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/blob/main/5_ImagesandVideos/LAB_7%20GitInspector%201.png)
 ![GitInspector 2](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/blob/main/5_ImagesandVideos/LAB_7%20GitInspector%202.png)
+![Contribution](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/blob/main/5_ImagesandVideos/Git%20Inspector/LAB_07%20Contributors.png)
+
 ## Challenges and How it was Overcome
 
 | Sl No. | Challenges | Overcome |
