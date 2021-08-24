@@ -31,5 +31,5 @@
 | LLT16 | HLT03 | Rectifier: Prompt user to enter Vm in given range (0>Vm && Vm<100) | float  | Vm limits voilated | Vm limits voilated | Technical |
 | LLT17 | HLT03 | Rectifier: Prompt user to enter non zero value for Vac  | float  | Vac cant be zero | Vac cant be zero | Technical |
 | LLT18 | HLT03 | Rectifier: Prompt user to enter Vac as Vdc/Vac should not be greater than 1 | float  | Vac Limits Voilated | Vac limits voilated | Technical |
-| LLT19 | HLT02 | Capacitor: Prompt user to enter no. of capacitors for equivalent capacitance | float | No. of capacitors | Equivalent capacitance | Equivalent capacitance | Technical | 
-| LLT20 | HLT03 |Capacitor: Prompt user to enter type of combination of capacitors | int | type of combination | Series or parallel | Series or Parallel | Technical |
+| LLT19 | HLT02 | Capacitor: Prompt user to enter no. of capacitors for equivalent capacitance | float | No. of capacitors | Equivalent capacitance | Technical | 
+| LLT20 | HLT03 |Capacitor: Prompt user to enter type of combination of capacitors | int | type of combination | Series or parallel | Technical |
