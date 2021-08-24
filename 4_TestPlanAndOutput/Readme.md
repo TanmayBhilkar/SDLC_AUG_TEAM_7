@@ -27,4 +27,8 @@
 | LLT12 | HLT02 | Flip Flops: Prompt user to chooce an option from a menu and check it's validity | char IN A-D or a-d | Respective case execution | Respective case execution | Scenario |
 | LLT13 | HLT03 | Flip Flops: Check for various user inputs (within limits) and it's respective output | Calculate Q(next) and return 0 | Calculates Q(next) and returns 0 |  Calculates Q(next) and returns 0 | Scenario |
 | LLT14 | HLT04 | Flip Flops: Check for non-binary input | Print "Non-binary value" and return -1 | Prints "Non-binary value" and returns -1 | Prints "Non-binary value" and returns -1 | Scenario |
+| LLT15 | HLT04 | Rectifier: Prompt user to enter Vm, Vac in the given range | float  | Respective R,Efficiency | Respective R,Efficiency  | Technical |
+| LLT16 | HLT03 | Rectifier: Prompt user to enter Vm in given range (0>Vm && Vm<100) | float  | Vm limits voilated | Vm limits voilated | Technical |
+| LLT17 | HLT03 | Rectifier: Prompt user to enter non zero value for Vac  | float  | Vac cant be zero | Vac cant be zero | Technical |
+| LLT18 | HLT03 | Rectifier: Prompt user to enter Vac as Vdc/Vac should not be greater than 1 | float  | Vac Limits Voilated | Vac limits voilated | Technical |
 
