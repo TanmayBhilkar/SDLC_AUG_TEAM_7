@@ -85,3 +85,5 @@ Many websites were available which would implement only one of the features of o
 | LR92 | Subtractors, Application should subtract binary numbers and produce output| HR07 | TBD |
 | LR101| Application should be able to able to convert binary code to gray code and vice versa upon user input| HR02,HR03 | TBD|
 | LR102| Application should be able to able to convert BCD to Excess 3 code and vice versa upon user input| HR02,HR03 | TBD|
+| LR111| Application should be able to able to show equivalent resistance in series and parallel form| HR02| TBD |
+| LR112 |Application should be able show output according to the input given |HR02,HR03|TBD |
