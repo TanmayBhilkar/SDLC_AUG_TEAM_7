@@ -69,5 +69,8 @@
 
 ![Digital Converter Activity Diagram](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/blob/2609f500e557f7d53e75ae0ff5013758f6b7d7da/2_Architecture/images/digitalconv.jpg)
 
+* Adders and Subtactors 
+
+![Adders and subtractors](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/blob/41a2fe48ebac0bbb6f56fc18d6ee6407c26393f3/2_Architecture/images/Copy%20of%20uml%20diagrams.jpg)
 
 
