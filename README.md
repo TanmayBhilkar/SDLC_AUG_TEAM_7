@@ -3,8 +3,8 @@
 
 # LAB_7
 
-| Build | Code Coverage | CppCheck | Unity | Git Inspector |
-|-------|---------------|----------|-------|---------------|
+| Build | Code Coverage | CppCheck | Unity | Git Inspector | Code_Ac|
+|-------|---------------|----------|-------|---------------|--------|
 |[![C/C++ CI - Build Status](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/c-cpp.yml)|[![CI-Coverage](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/gcov.yml/badge.svg)](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/gcov.yml)|[![Code Quality - Static Code - Cppcheck](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/cppcheck.yml)|[![Unit Testing - Unity](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/unit_testing.yml/badge.svg)](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/unit_testing.yml)|[![Contribution Check - Git Inspector](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/gitinspector.yml)|
 ## Folder Structure
 Folder                     | Description
