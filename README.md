@@ -23,10 +23,10 @@ Folder                     | Description
 
 | PS.No.| Name | Feature | Details | No. of Test Cases tested | No. of Test Cases Passed | Issuses Raised/ Solved |
 |------|-----|---------|--------|-------|---------|--------------|
-|99005726|Pramodh Mahadesh K M|Design of filters|First order,Second order and Bandpass filters| 06 | 06 | 01 |
+|99005726|Pramodh Mahadesh K M|Design of filters|First order,Second order and Bandpass filters| 06 | 06 | 01/00 |
 |99005729|S Rinitha|Logic Gates|AND, OR, NOT, NAND, NOR, XOR, XNOR Gates|07 |07 | |
-|99005721|Tanmay|OpAmps_Part-A|inverting,non-inverting,differntial,integretor|06 |06 | 02 |
-|99005713|Tejas Holla| Oscillators | RC Phase Shift Oscilaltor, Wein Bridge oscillator, Colpitts Oscillator, Astable Multivibrator and Monostable Multivibrator| 06 | 06 | 02 |
+|99005721|Tanmay|OpAmps_Part-A|inverting,non-inverting,differntial,integretor|06 |06 | 00/02 |
+|99005713|Tejas Holla| Oscillators | RC Phase Shift Oscilaltor, Wein Bridge oscillator, Colpitts Oscillator, Astable Multivibrator and Monostable Multivibrator| 06 | 06 | 00/02 |
 |99005708|MD Akif Ahmed | Number conversions| n.o system conversions| | | |
 |99005714|Samiksha | Capacitors| Series Capacitors and Parallel Capacitors|02 |02 | |
 |99005734|Abhijith Ashokan | Digital converter| Binary to gray code and vice versa| 06 | 06 | |
