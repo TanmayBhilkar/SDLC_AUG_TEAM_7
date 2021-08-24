@@ -22,7 +22,7 @@ Folder                     | Description
 |99005726|Pramodh Mahadesh K M|Design of filters|First order,Second order and Bandpass filters| 06 | 06 |
 |2|S Rinitha|Logic Gates|AND, OR, NOT, NAND, NOR, XOR, XNOR Gates| | |
 |99005721|Tanmay|OpAmps_Part-A|inverting,non-inverting,differntial,integretor|06 |06 |
-|4|Tejas Holla| Oscillators | RC Phase Shift Oscilaltor, Wein Bridge oscillator, Colpitts Oscillator, Astable Multivibrator and Monostable Multivibrator| 06 | 06 | 
+|99005713|Tejas Holla| Oscillators | RC Phase Shift Oscilaltor, Wein Bridge oscillator, Colpitts Oscillator, Astable Multivibrator and Monostable Multivibrator| 06 | 06 | 
 |5|Akif | Number conversions| Binary to hexa to octal conversions| | |
 |99005714|Samiksha | Capacitors| Series Capacitors and Parallel Capacitors|02 |02 |
 |7|Abhijith Ashokan | Digital conversions| Binary to gray code and vice versa, BCD to excess 3 code and vice versa| | |
