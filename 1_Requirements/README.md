@@ -45,45 +45,46 @@ Many websites were available which would implement only one of the features of o
 | 08 | OP-AMP_Part-B |To check Wheteher the given parameter forms the given Amplifier or Not. and Find out the output Voltage|
 | 09 | Adders and Subtractors | To implement addition and subtraction on binary numbers|
 | 10 | Digital converters | To perform binary to gray code conversion and vice versa as well as BCD to excess 3 code and vice versa|
+| 11 | Capacitors | Calculate equivalent capacitance for series and parallel combination of capacitors | 
 
 ## High Level Requirements: 
 | ID | Description | Status |
 | ----- | ----------- | ------- |
-| HR01 | Application should implement various electronic component design | TBD |
-| HR02 | Application should take input from the user | TBD |
-| HR03 | Application should print output to the user | TBD |
-| HR04 | Application should work on both Linux and Windows | TBD |
-| HR05 | Application should follow clean code rules | TBD |
-| HR06 | Op-Amp Application Should Print Voltage to User|TBD|
-| HR07| Adders must add binary inputs and display the output to user| TBD | 
+| HR01 | Application should implement various electronic component design | Implemented |
+| HR02 | Application should take input from the user | Implemented |
+| HR03 | Application should print output to the user | Implemented |
+| HR04 | Application should work on both Linux and Windows | Implemented |
+| HR05 | Application should follow clean code rules | Implemented |
+| HR06 | Op-Amp Application Should Print Voltage to User| Implemented |
+| HR07| Adders must add binary inputs and display the output to user| Implemented | 
 
 ##  Low level Requirements:
  
 | ID | Description | HR ID | Status |
 | ------ | --------- | ------ | ----- |
-| LR01 | Application should be able to run on the CLI of the user | HR02,HR03 | TBD |
-| LR02 | Application should use makefile option for different commands | HR04 | TBD |
-| LR03 | Application should comply with different checks like valgrind,cppcheck,build etc. | HR05 | TBD |
-| LR04 | Application to be used with a GUI to provide inputs and print outputs | HR02,HR03 | Future |
-| LR11 | Application should consider all the different types of active filters available to design | HR01 | TBD |
-| LR21 | Implementation of different Logic Gates | HR01 | TBD |
-| LR22 | Implement test cases to check the implementation of Logic Gates | HR05 | TBD |
-| LR31 | Application should take the Flip Flop present states as input | HR02 | TBD |
-| LR32 | Application should print the next state as output | HR03 | TBD |
-| LR41 | Application should be able to give an output in specific number system, when user enters an input | HR02,HR03,HR04 | TBD |
-| LR51 | Application should be able to give an output of rectifier when user enters input | HR02,HR03 | TBD |
-| LR52 | Application should be able to calculate efficiency when user opts for it  | HR02,HR03 | TBD |
-| LR53 | Application should be able to take input of Vm in the given range | HR02 | TBD |
-| LR60 | Application Should be Able to Take correct Op_AMP| HR06 | TBD|
-| LR61 | Application Should Be Able to Give Output According to the Op-Amp| HR06| TBD |
-| LR71 | Op-Amp_Part-B Should Print output Voltage by taking inputs for input votages and Resistances| HR02,HR03 |TBD|
-| LR72 | Op-Amp_Part-B should give the choice to user to choose various opamps available| HR01 |TBD|
-| LR81 | Oscillators: Application should consider the different types of oscillators to design using Op Amp| HR01 |TBD|
-| LR82 | Oscillators: Application takes oscillating frequency, oscillator amplitude gain, feedback fraction as inputs depending on the oscillator circuit selected| HR02 |TBD|
-| LR83 | Oscillators: Application should print the circuit design parameters of the selected oscillator circuit| HR03 |TBD|
-| LR91 | Adders, Application should add binary numbers and produce output| HR07 | TBD |
-| LR92 | Subtractors, Application should subtract binary numbers and produce output| HR07 | TBD |
-| LR101| Application should be able to able to convert binary code to gray code and vice versa upon user input| HR02,HR03 | TBD|
-| LR102| Application should be able to able to convert BCD to Excess 3 code and vice versa upon user input| HR02,HR03 | TBD|
-| LR111| Application should be able to able to show equivalent resistance in series and parallel form| HR02| TBD |
-| LR112 |Application should be able show output according to the input given |HR02,HR03|TBD |
+| LR0.1 | Application should be able to run on the CLI of the user | HR02,HR03 | Implemented |
+| LR0.2 | Application should use makefile option for different commands | HR04 | Implemented |
+| LR0.3 | Application should comply with different checks like valgrind,cppcheck,build etc. | HR05 | Implemented |
+| LR0.4 | Application to be used with a GUI to provide inputs and print outputs | HR02,HR03 | Future |
+| LR1.1 | Application should consider all the different types of active filters available to design | HR01 | Implemented |
+| LR2.1 | Implementation of different Logic Gates | HR01 | Implemented |
+| LR2.2 | Implement test cases to check the implementation of Logic Gates | HR05 | Implemented |
+| LR3.1 | Application should take the Flip Flop present states as input | HR02 | Implemented |
+| LR3.2 | Application should print the next state as output | HR03 | Implemented |
+| LR4.1 | Application should be able to give an output in specific number system, when user enters an input | HR02,HR03,HR04 | Implemented |
+| LR5.1 | Application should be able to give an output of rectifier when user enters input | HR02,HR03 | Implemented |
+| LR5.2 | Application should be able to calculate efficiency when user opts for it  | HR02,HR03 | Implemented |
+| LR5.3 | Application should be able to take input of Vm in the given range | HR02 | Implemented |
+| LR6.0 | Application Should be Able to Take correct Op_AMP| HR06 | Implemented |
+| LR6.1 | Application Should Be Able to Give Output According to the Op-Amp| HR06| Implemented |
+| LR7.1 | Op-Amp_Part-B Should Print output Voltage by taking inputs for input votages and Resistances| HR02,HR03 | Implemented |
+| LR7.2 | Op-Amp_Part-B should give the choice to user to choose various opamps available| HR01 | Implemented |
+| LR8.1 | Oscillators: Application should consider the different types of oscillators to design using Op Amp| HR01 | Implemented |
+| LR8.2 | Oscillators: Application takes oscillating frequency, oscillator amplitude gain, feedback fraction as inputs depending on the oscillator circuit selected| HR02 | Implemented |
+| LR8.3 | Oscillators: Application should print the circuit design parameters of the selected oscillator circuit| HR03 | Implemented |
+| LR9.1 | Adders, Application should add binary numbers and produce output| HR07 | Implemented |
+| LR9.2 | Subtractors, Application should subtract binary numbers and produce output| HR07 | TBD |
+| LR10.1| Application should be able to able to convert binary code to gray code and vice versa upon user input| HR02,HR03 | Implemented |
+| LR10.2| Application should be able to able to convert BCD to Excess 3 code and vice versa upon user input| HR02,HR03 | Implemented |
+| LR11.1| Application should be able to able to show equivalent capacitance in series and parallel form| HR02| Implemented |
+| LR11.2 |Application should be able show output according to the input given |HR02,HR03| Implemented |
