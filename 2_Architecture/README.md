@@ -62,6 +62,8 @@
 ![Capacitor ACtivity Diagram](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/blob/main/2_Architecture/images/Capacitor_Activity_Diagram1.jpg)
 
 * Number system conversions Activity diagram
+ 
+![Number system conversions Activity diagram](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/blob/main/2_Architecture/images/n.oconvrs.jpg)
 
 
 
