@@ -26,7 +26,7 @@ Folder                     | Description
 |99005708|Akif | Number conversions| n.o system conversions| | |
 |99005714|Samiksha | Capacitors| Series Capacitors and Parallel Capacitors|02 |02 |
 |99005734|Abhijith Ashokan | Digital converter| Binary to gray code and vice versa| 06 | 06 |
-|8|Prakruthi B R  |Digital circuits| Adder and subtractor | | |  
+|99005758|Prakruthi B R  |Digital circuits| Adder and subtractor | 08 | 08 |  
 |99005735|Sakshi |Rectifier| Half Wave, Full Wave Rectifiers, Bridge Rectifier & Rectifier with Filter| 04 | 04 |
 |10|Jayashree.S | Flip FLops | SR Flip Flop, JK Flip Flop, D Flip FLop, T Flip Flop | 04 | 04 |
 |99005746|Prajakta  | OpAmps_Part-B | Voltage Follower, Inverting Summing ,Non-Inverting Summing, Converter Current Voltage | 04 | 04 |
