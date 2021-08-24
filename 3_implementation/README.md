@@ -1,6 +1,6 @@
 # To implement this project,follow the below steps.
 
-1. Open the terminal in the loctaion of the implemtation folder.
+1. Open the terminal in the location of the implementation  folder.
 
 2. Run the command "make" to build the project.
 
