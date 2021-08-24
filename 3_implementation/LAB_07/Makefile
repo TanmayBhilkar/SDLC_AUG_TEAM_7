@@ -72,3 +72,8 @@ coverage:
 	gcc -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC1) $(INC) -o $(PROJ_NAME) -lm
 	./$(PROJ_NAME)
 	gcovr -r .
+
+# Valgrind
+valgrind_test: $(SRC) $(TEST_SRC) $(BUILD_DIR)
+	gcc $(SRC) $(TEST_SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC)) -lm
+	valgrind $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC)
