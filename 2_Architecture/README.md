@@ -67,7 +67,7 @@
 
 * Digital Converter Activity Diagram
 
-![Digital Converter Activity Diagram](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/blob/c553bd3d0003923e8b8c575aecbab87448a03985/2_Architecture/images/n.oconvrs.jpg)
+![Digital Converter Activity Diagram](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/blob/2609f500e557f7d53e75ae0ff5013758f6b7d7da/2_Architecture/images/digitalconv.jpg)
 
 
 
