@@ -26,4 +26,4 @@ jobs:
     - name: Install gcov 
       run: sudo apt -y install gcovr
     - name: make 
-      run: make coverage -C 3_Implementation/LAB_07/
+      run: make coverage -C 3_implementation/LAB_07/
