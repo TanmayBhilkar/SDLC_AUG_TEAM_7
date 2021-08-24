@@ -83,7 +83,7 @@ Many websites were available which would implement only one of the features of o
 | LR8.2 | Oscillators: Application takes oscillating frequency, oscillator amplitude gain, feedback fraction as inputs depending on the oscillator circuit selected| HR02 | Implemented |
 | LR8.3 | Oscillators: Application should print the circuit design parameters of the selected oscillator circuit| HR03 | Implemented |
 | LR9.1 | Adders, Application should add binary numbers and produce output| HR07 | Implemented |
-| LR9.2 | Subtractors, Application should subtract binary numbers and produce output| HR07 | TBD |
+| LR9.2 | Subtractors, Application should subtract binary numbers and produce output| HR07 | Implemented |
 | LR10.1| Application should be able to able to convert binary code to gray code and vice versa upon user input| HR02,HR03 | Implemented |
 | LR10.2| Application should be able to able to convert BCD to Excess 3 code and vice versa upon user input| HR02,HR03 | Implemented |
 | LR11.1| Application should be able to able to show equivalent capacitance in series and parallel form| HR02| Implemented |
