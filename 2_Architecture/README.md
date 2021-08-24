@@ -65,5 +65,9 @@
  
 ![Number system conversions Activity diagram](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/blob/main/2_Architecture/images/n.oconvrs.jpg)
 
+*Digital Converter Activity Diagram
+
+![Digital Converter Activity Diagram](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/blob/c553bd3d0003923e8b8c575aecbab87448a03985/2_Architecture/images/n.oconvrs.jpg)
+
 
 
