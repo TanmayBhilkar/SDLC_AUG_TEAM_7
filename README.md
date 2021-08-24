@@ -8,6 +8,8 @@
 |[![C/C++ CI - Build Status](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/c-cpp.yml)|[![CI-Coverage](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/gcov.yml/badge.svg)](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/gcov.yml)|[![Code Quality - Static Code - Cppcheck](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/cppcheck.yml)|[![Unit Testing - Unity](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/unit_testing.yml/badge.svg)](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/unit_testing.yml)|[![Contribution Check - Git Inspector](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/gitinspector.yml)|[![Codeac](https://static.codeac.io/badges/2-397881802.svg "Codeac")](https://app.codeac.io/github/TanmayBhilkar/SDLC_AUG_TEAM_7)[![Codacy Badge](https://app.codacy.com/project/badge/Grade/42eef1688bc6485bb40bcf8a22537087)](https://www.codacy.com/gh/TanmayBhilkar/SDLC_AUG_TEAM_7/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=TanmayBhilkar/SDLC_AUG_TEAM_7&amp;utm_campaign=Badge_Grade)
 
 
+
+
 ## Folder Structure
 Folder                     | Description
 -------------------        | -----------------------------------------
