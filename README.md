@@ -3,9 +3,12 @@
 
 # LAB_7
 
-| Build | Code Coverage | CppCheck | Unity | Git Inspector | Code_Ac|
-|-------|---------------|----------|-------|---------------|--------|
-|[![C/C++ CI - Build Status](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/c-cpp.yml)|[![CI-Coverage](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/gcov.yml/badge.svg)](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/gcov.yml)|[![Code Quality - Static Code - Cppcheck](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/cppcheck.yml)|[![Unit Testing - Unity](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/unit_testing.yml/badge.svg)](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/unit_testing.yml)|[![Contribution Check - Git Inspector](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/gitinspector.yml)|[![Codeac](https://static.codeac.io/badges/2-397881802.svg "Codeac")](https://app.codeac.io/github/TanmayBhilkar/SDLC_AUG_TEAM_7)
+| Build | Code Coverage | CppCheck | Unity | Git Inspector | Code_Ac| codacy|
+|-------|---------------|----------|-------|---------------|--------|-------|
+|[![C/C++ CI - Build Status](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/c-cpp.yml)|[![CI-Coverage](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/gcov.yml/badge.svg)](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/gcov.yml)|[![Code Quality - Static Code - Cppcheck](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/cppcheck.yml)|[![Unit Testing - Unity](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/unit_testing.yml/badge.svg)](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/unit_testing.yml)|[![Contribution Check - Git Inspector](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/gitinspector.yml)|[![Codeac](https://static.codeac.io/badges/2-397881802.svg "Codeac")](https://app.codeac.io/github/TanmayBhilkar/SDLC_AUG_TEAM_7)|![code_quality](https://www.code-inspector.com/project/26795/score/svg)![code_grade](https://www.code-inspector.com/project/26795/status/svg)
+
+
+
 
 ## Folder Structure
 Folder                     | Description
@@ -24,7 +27,7 @@ Folder                     | Description
 |99005729|S Rinitha|Logic Gates|AND, OR, NOT, NAND, NOR, XOR, XNOR Gates|07 |07 |
 |99005721|Tanmay|OpAmps_Part-A|inverting,non-inverting,differntial,integretor|06 |06 |
 |99005713|Tejas Holla| Oscillators | RC Phase Shift Oscilaltor, Wein Bridge oscillator, Colpitts Oscillator, Astable Multivibrator and Monostable Multivibrator| 06 | 06 | 
-|99005708|Akif | Number conversions| n.o system conversions| | |
+|99005708|MD Akif Ahmed | Number conversions| n.o system conversions| | |
 |99005714|Samiksha | Capacitors| Series Capacitors and Parallel Capacitors|02 |02 |
 |99005734|Abhijith Ashokan | Digital converter| Binary to gray code and vice versa| 06 | 06 |
 |99005758|Prakruthi B R  |Digital circuits| Adder and subtractor | 08 | 08 |  

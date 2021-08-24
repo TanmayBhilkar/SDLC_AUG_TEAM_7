@@ -26,6 +26,7 @@ void display_2(void){
     printf("Refer the below chart to choose your Rectifier\n");
     printf("A - Full wave rectifier \nB - Half wave rectifier\nC - Bridge Rectifier\n");
     printf("D - Rectifier with filter \n");
+    printf("E - Exit \n");
 }
 /**
  * @brief FWR() is full wave rectifier 

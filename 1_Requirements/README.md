@@ -71,7 +71,7 @@ Many websites were available which would implement only one of the features of o
 | LR2.2 | Implement test cases to check the implementation of Logic Gates | HR05 | Implemented |
 | LR3.1 | Application should take the Flip Flop present states as input | HR02 | Implemented |
 | LR3.2 | Application should print the next state as output | HR03 | Implemented |
-| LR4.1 | Application should be able to give an output in specific number system, when user enters an input | HR02,HR03,HR04 | Implemented |
+| LR4.1 | Application should be able to give an output in specific number system, when user enters an input | HR02,HR03 | Implemented |
 | LR5.1 | Application should be able to give an output of rectifier when user enters input | HR02,HR03 | Implemented |
 | LR5.2 | Application should be able to calculate efficiency when user opts for it  | HR02,HR03 | Implemented |
 | LR5.3 | Application should be able to take input of Vm in the given range | HR02 | Implemented |

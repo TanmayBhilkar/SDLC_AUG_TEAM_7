@@ -266,6 +266,9 @@ int Rectifier_main(){
         printf("\nEnter the values of Vrpp in volts: ");
         scanf("%f",&Vrpp);                                              // scanning valve for Vrpp
     }
+    if (option=='E'){
+        exit;
+    }
     else{
         printf("\nenter the correct option from the given table");         // print if the user enters any other option rather than  displayed on the screen
     }
@@ -287,7 +290,10 @@ int Rectifier_main(){
         case 'D':
         RF(Vm,Vrpp);
         break;
-
+		    
+        case 'E':
+        break;
+		    
         default: 
         return 0;
     }
