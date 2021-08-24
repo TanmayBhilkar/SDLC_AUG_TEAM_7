@@ -39,3 +39,12 @@ Folder                     | Description
 |99005746|Prajakta  | OpAmps_Part-B | Voltage Follower, Inverting Summing ,Non-Inverting Summing, Converter Current Voltage | 04 | 04 | |
 
 ## Git Inspector
+
+![GitInspector 1](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/blob/main/5_ImagesandVideos/LAB_7%20GitInspector%201.png)
+![GitInspector 2](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/blob/main/5_ImagesandVideos/LAB_7%20GitInspector%202.png)
+## Challenges and How it was Overcome
+
+| Sl No. | Challenges | Overcome |
+|--------|-----------------------------------|----------------------------------------------|
+|   1    | Integration of all the features   | Having team meetings to solve all the issues |
+|   2    | Time Crunch to finish the project | Effective Planning and Time Management       |       
