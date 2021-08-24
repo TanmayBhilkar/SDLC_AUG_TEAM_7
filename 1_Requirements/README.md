@@ -26,7 +26,7 @@ Many websites were available which would implement only one of the features of o
  * This project can be used colleges/universities,labs or even for individual uses.
 
 ### How:
- * The user can follow the (add link for implementation). Then the user enters their requirements and the output will be displayed.
+ * The user can follow the ![steps](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/blob/main/3_implementation/README.md). Then the user enters their requirements and the output will be displayed.
 
 ## SWOT Analysis
 ![SWOT ANALYSIS](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/blob/main/1_Requirements/SWOT.jpg)
