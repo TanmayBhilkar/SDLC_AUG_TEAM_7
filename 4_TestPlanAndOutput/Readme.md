@@ -31,7 +31,5 @@
 | LLT16 | HLT03 | Rectifier: Prompt user to enter Vm in given range (0>Vm && Vm<100) | float  | Vm limits voilated | Vm limits voilated | Technical |
 | LLT17 | HLT03 | Rectifier: Prompt user to enter non zero value for Vac  | float  | Vac cant be zero | Vac cant be zero | Technical |
 | LLT18 | HLT03 | Rectifier: Prompt user to enter Vac as Vdc/Vac should not be greater than 1 | float  | Vac Limits Voilated | Vac limits voilated | Technical |
-| LLT19 | HLT04 | Opamp_B : Circuit Design Parameters Check | Input Voltages and Resistances of opamp | Output Voltage   | Calculated correct output Voltage | Technical |
-| LLT20 | HLT02 | Opamp_B : Input Parameters for Choice of Opamp Check | int 1/2/3/4 | Respective function execution asking for inputs and display output Vtg.  | Function Executed displaying Vo | Technical |
-
-
+| LLT19 | HLT02 | Capacitor: Prompt user to enter no. of capacitors for equivalent capacitance | float | No. of capacitors | Equivalent capacitance | Equivalent capacitance | Technical | 
+| LLT20 | HLT03 |Capacitor: Prompt user to enter type of combination of capacitors | int | type of combination | Series or parallel | Series or Parallel | Technical |
