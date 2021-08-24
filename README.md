@@ -25,7 +25,7 @@ Folder                     | Description
 |99005713|Tejas Holla| Oscillators | RC Phase Shift Oscilaltor, Wein Bridge oscillator, Colpitts Oscillator, Astable Multivibrator and Monostable Multivibrator| 06 | 06 | 
 |5|Akif | Number conversions| Binary to hexa to octal conversions| | |
 |99005714|Samiksha | Capacitors| Series Capacitors and Parallel Capacitors|02 |02 |
-|7|Abhijith Ashokan | Digital conversions| Binary to gray code and vice versa, BCD to excess 3 code and vice versa| | |
+|7|Abhijith Ashokan | Digital conversions| Binary to gray code and vice versa| | |
 |8|Prakruthi B R  |Digital circuits| Adder and subtractor | | |  
 |99005735|Sakshi |Rectifier| Half Wave, Full Wave Rectifiers, Bridge Rectifier & Rectifier with Filter| 04 | 04 |
 |10|Jayashree.S | Flip FLops | SR Flip Flop, JK Flip Flop, D Flip FLop, T Flip Flop | 04 | 04 |
