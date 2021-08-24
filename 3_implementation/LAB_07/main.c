@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
+#include <string.h>
 #include "filter.h"
 #include "FlipFlop.h"
 #include "Header.h"
@@ -10,6 +12,9 @@
 #include "digitalheader.h"
 #include "header1.h"
 #include "capacitor.h"
+#include "conversions.h"
+#define MAX 1000
+#define ARRAY_SIZE  20
 
 int OpAmpB_main()
 {   char a='y';
@@ -443,6 +448,146 @@ int cap_main()
     return 0;
 }
 
+int NumConv_main()
+{
+    char a='Y';
+    while(a=='Y' || a=='y')
+    {
+    int n;
+    int m;
+    long dec;
+    long hex;
+    int b;
+    long bo;
+    long bh;
+    char ob[MAX];
+    long octal;
+    int octnum;
+    char hb[MAX];
+    char hd[17];
+    char ho[17];
+    int* x;
+    
+    printf("Choose conversion menu\n");
+    printf("1.Dec to Bin\n");
+    printf("2.Dec to Octal\n");
+    printf("3.Dec to Hex\n");
+    printf("4.Bin to Dec\n");
+    printf("5.Bin to Octal\n");
+    printf("6.Bin to Hex\n");
+    printf("7.Octal to Bin\n");
+    printf("8.Octal to Dec\n");
+    printf("9.Octal to Hex\n");
+    printf("10.Hex to Bin\n");
+    printf("11.Hex to Dec\n");
+    printf("12.Hex to Octal\n");
+    printf("13.Exit\n");
+    printf("Enter Option: ");
+    scanf("%d", &n);
+
+
+
+
+    switch (n){
+        case 1:
+        printf("Enter the decimal number to convert: \n");
+        scanf("%d",&m);
+        printf("Dec to Bin:");
+        DEC_BIN(m);
+        break;
+
+        case 2:
+        printf("Enter the decimal number: ");
+        scanf("%ld", &dec);
+        printf("Dec to Octal\n");
+        DEC_OCTAL(dec);
+        break;
+
+        case 3:
+        printf("Dec to Hex\n");
+        printf("Enter decimal number: ");
+        scanf("%ld", &hex);
+        DEC_HEXA(hex);
+        break;
+
+        case 4:
+        printf("Bin to Dec\n");
+        printf (" Enter a binary number with the combination of 0s and 1s \n");
+        scanf (" %d", &b);
+        BIN_DEC(b);
+        break;
+
+        case 5:
+        printf("Bin to Octal\n");
+        printf("Enter the value for  binary number: ");
+        scanf("%ld", &bo);
+        BIN_OCTAL(bo);
+        break;
+
+        case 6:
+        printf("Bin to Hex\n");
+        printf("Enter the binary number: ");
+        scanf("%ld", &bh);
+        BIN_HEXA(bh);
+        break;
+
+        case 7:
+        printf("Octal to Bin\n");
+        printf("Enter any octal number: ");
+        scanf("%s", ob);
+        OCTAL_BIN(ob);
+        break;
+
+        case 8:
+        printf("Octal to Dec\n");
+        printf("Enter any octal number: ");
+        scanf("%ld", &octal);
+        OCTAL_DEC(octal);
+        break;
+
+        case 9:
+        printf("Octal to Hex\n");
+        printf("Enter any Octal Number: ");
+        scanf("%d", &octnum);
+        OCTAL_HEXA(octnum);
+        break;
+
+        case 10:
+        printf("Hex to Bin\n");
+        printf("Enter the value for hexadecimal \n");
+        scanf("%s", hb);
+        HEXA_BIN(hb);
+        break;
+
+        case 11:
+        printf("Hex to Dec\n");
+        printf("Enter any hexadecimal number: ");
+        scanf("%s", hd);
+        HEXA_DEC(hd);
+        break;
+
+        case 12:
+        printf("Hex to Octal\n");
+        printf("Enter any hexadecimal number: ");
+        scanf("%s",ho);
+        HEXA_OCTAL(ho);
+        break;
+
+        case 13:
+        // exit(0);
+        break;
+
+        default:
+            printf("PLease enter a valid number.\n");
+            
+    }
+
+    printf("Do you wish to continue with number conversions?(y/n):");
+    scanf(" %c",&a);}
+
+    return 0;
+}
+
 int main(){
     char z='y';
 	while(z=='y' || z=='Y'){
@@ -451,7 +596,7 @@ int main(){
     printf("Refer the below chart to use the features with their respective codes:\n");
     printf("A: Design of Filters\nB: Rectifiers\nC: Logic Gates\nD: Oscillators\nE: Op-Amps\n" );
     printf("F: Flip Flops\nG: Op-amps Part B\nH: Digital Converters\nI: Adders and Subtractors\n");
-    printf("J: Capacitors\n ");
+    printf("J: Capacitors\nK: Number conversions\n ");
     printf("Enter a feature you want to use : ");
     char key;
     scanf(" %c",&key);
@@ -497,9 +642,16 @@ int main(){
         cap_main();
         break;
 
+        case 'K':
+        NumConv_main();
+        break;
+
         default:
         printf("\nPlease enter correct code!!\n");
     }
     printf("\nDo you wish to go to the main menu?(y/n):");
    	scanf(" %c",&z);}
+
+       return 0;
+       
 }
