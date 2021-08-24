@@ -27,7 +27,7 @@ Folder                     | Description
 |99005729|S Rinitha|Logic Gates|AND, OR, NOT, NAND, NOR, XOR, XNOR Gates|07 |07 |
 |99005721|Tanmay|OpAmps_Part-A|inverting,non-inverting,differntial,integretor|06 |06 |
 |99005713|Tejas Holla| Oscillators | RC Phase Shift Oscilaltor, Wein Bridge oscillator, Colpitts Oscillator, Astable Multivibrator and Monostable Multivibrator| 06 | 06 | 
-|99005708|Akif | Number conversions| n.o system conversions| | |
+|99005708|MD Akif Ahmed | Number conversions| n.o system conversions| | |
 |99005714|Samiksha | Capacitors| Series Capacitors and Parallel Capacitors|02 |02 |
 |99005734|Abhijith Ashokan | Digital converter| Binary to gray code and vice versa| 06 | 06 |
 |99005758|Prakruthi B R  |Digital circuits| Adder and subtractor | 08 | 08 |  
