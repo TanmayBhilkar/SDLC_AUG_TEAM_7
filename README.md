@@ -3,14 +3,16 @@
 
 # LAB_7
 
+LAB_7 is a very handy tool used for the easy design and implementation of electronic circuits. The various features of this project are Filters, Logic Gates, Op-Amp Circuits, Oscillators, Number Conversion Systems, Capacitors, Digital Code Convertors, Adders and Subtractors and Rectifiers provide wide range of functionality. Each feature has its own set of inputs provided by the user in the command line and the output is displayed through the same. 
+
+
 | Build | Code Coverage | CppCheck | Unity | Git Inspector | Code_Ac| Codacy | Valgrind |
 |-------|---------------|----------|-------|---------------|--------|-------|-----------|
 |[![C/C++ CI - Build Status](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/c-cpp.yml)|[![CI-Coverage](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/gcov.yml/badge.svg)](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/gcov.yml)|[![Code Quality - Static Code - Cppcheck](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/cppcheck.yml)|[![Unit Testing - Unity](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/unit_testing.yml/badge.svg)](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/unit_testing.yml)|[![Contribution Check - Git Inspector](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/gitinspector.yml)|[![Codeac](https://static.codeac.io/badges/2-397881802.svg "Codeac")](https://app.codeac.io/github/TanmayBhilkar/SDLC_AUG_TEAM_7)|![code_quality](https://www.code-inspector.com/project/26795/score/svg)![code_grade](https://www.code-inspector.com/project/26795/status/svg)|[![Valgrind](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/Valgrind.yml/badge.svg)](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/actions/workflows/Valgrind.yml)|
 
 
-
-
 ## Folder Structure
+
 Folder                     | Description
 -------------------        | -----------------------------------------
 `1_Requirements`           | A brief about requirements and research
@@ -18,6 +20,7 @@ Folder                     | Description
 `3_Implementation`         | The code and working
 `4_TestPlanAndOutput`      | Documents with test plans and procedures
 `5_ImagesAndVideos`        | Important images regarding circuit diagrams
+
 
 ## Contributors List and Summary
 
@@ -34,3 +37,5 @@ Folder                     | Description
 |99005735|Sakshi |Rectifier| Half Wave, Full Wave Rectifiers, Bridge Rectifier & Rectifier with Filter| 04 | 04 | |
 |99005741|Jayashree.S | Flip FLops | SR Flip Flop, JK Flip Flop, D Flip FLop, T Flip Flop | 04 | 04 | |
 |99005746|Prajakta  | OpAmps_Part-B | Voltage Follower, Inverting Summing ,Non-Inverting Summing, Converter Current Voltage | 04 | 04 | |
+
+## Git Inspector
