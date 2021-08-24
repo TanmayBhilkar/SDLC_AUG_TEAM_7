@@ -20,7 +20,7 @@ Folder                     | Description
 | PS.No.| Name | Feature | Details | No. of Test Cases tested | No. of Test Cases Passed |
 |------|-----|---------|--------|-------|---------|
 |99005726|Pramodh Mahadesh K M|Design of filters|First order,Second order and Bandpass filters| 06 | 06 |
-|2|S Rinitha|Logic Gates|AND, OR, NOT, NAND, NOR, XOR, XNOR Gates| | |
+|99005729|S Rinitha|Logic Gates|AND, OR, NOT, NAND, NOR, XOR, XNOR Gates|07 |07 |
 |99005721|Tanmay|OpAmps_Part-A|inverting,non-inverting,differntial,integretor|06 |06 |
 |99005713|Tejas Holla| Oscillators | RC Phase Shift Oscilaltor, Wein Bridge oscillator, Colpitts Oscillator, Astable Multivibrator and Monostable Multivibrator| 06 | 06 | 
 |5|Akif | Number conversions| Binary to hexa to octal conversions| | |
