@@ -13,3 +13,12 @@
 
 # Date - 22/08/2021
  * Implementation,solving issues and integration.
+ 
+# Date - 23/08/2021
+ * Integrating all the various features
+ * Solving the issues raised
+ * Adding code quality badges
+ 
+# Date - 24/08/2021
+ * Individual team review
+ * Group peer review
