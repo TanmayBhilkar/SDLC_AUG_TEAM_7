@@ -47,4 +47,8 @@ Folder                     | Description
 | Sl No. | Challenges | Overcome |
 |--------|-----------------------------------|----------------------------------------------|
 |   1    | Integration of all the features   | Having team meetings to solve all the issues |
-|   2    | Time Crunch to finish the project | Effective Planning and Time Management       |       
+|   2    | Time Crunch to finish the project | Effective Planning and Time Management       |   
+
+
+## Working in Action
+![Workiing](https://github.com/TanmayBhilkar/SDLC_AUG_TEAM_7/blob/main/5_ImagesandVideos/2021-08-24-21-54-57.gif)
