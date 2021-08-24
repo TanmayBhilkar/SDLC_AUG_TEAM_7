@@ -21,16 +21,16 @@ Folder                     | Description
 
 ## Contributors List and Summary
 
-| PS.No.| Name | Feature | Details | No. of Test Cases tested | No. of Test Cases Passed |
-|------|-----|---------|--------|-------|---------|
-|99005726|Pramodh Mahadesh K M|Design of filters|First order,Second order and Bandpass filters| 06 | 06 |
-|99005729|S Rinitha|Logic Gates|AND, OR, NOT, NAND, NOR, XOR, XNOR Gates|07 |07 |
-|99005721|Tanmay|OpAmps_Part-A|inverting,non-inverting,differntial,integretor|06 |06 |
-|99005713|Tejas Holla| Oscillators | RC Phase Shift Oscilaltor, Wein Bridge oscillator, Colpitts Oscillator, Astable Multivibrator and Monostable Multivibrator| 06 | 06 | 
-|99005708|MD Akif Ahmed | Number conversions| n.o system conversions| | |
-|99005714|Samiksha | Capacitors| Series Capacitors and Parallel Capacitors|02 |02 |
-|99005734|Abhijith Ashokan | Digital converter| Binary to gray code and vice versa| 06 | 06 |
-|99005758|Prakruthi B R  |Digital circuits| Adder and subtractor | 08 | 08 |  
-|99005735|Sakshi |Rectifier| Half Wave, Full Wave Rectifiers, Bridge Rectifier & Rectifier with Filter| 04 | 04 |
-|99005741|Jayashree.S | Flip FLops | SR Flip Flop, JK Flip Flop, D Flip FLop, T Flip Flop | 04 | 04 |
-|99005746|Prajakta  | OpAmps_Part-B | Voltage Follower, Inverting Summing ,Non-Inverting Summing, Converter Current Voltage | 04 | 04 |
+| PS.No.| Name | Feature | Details | No. of Test Cases tested | No. of Test Cases Passed | Issuses Raised/ Solved |
+|------|-----|---------|--------|-------|---------|--------------|
+|99005726|Pramodh Mahadesh K M|Design of filters|First order,Second order and Bandpass filters| 06 | 06 | 01 |
+|99005729|S Rinitha|Logic Gates|AND, OR, NOT, NAND, NOR, XOR, XNOR Gates|07 |07 | |
+|99005721|Tanmay|OpAmps_Part-A|inverting,non-inverting,differntial,integretor|06 |06 | 02 |
+|99005713|Tejas Holla| Oscillators | RC Phase Shift Oscilaltor, Wein Bridge oscillator, Colpitts Oscillator, Astable Multivibrator and Monostable Multivibrator| 06 | 06 | 02 |
+|99005708|MD Akif Ahmed | Number conversions| n.o system conversions| | | |
+|99005714|Samiksha | Capacitors| Series Capacitors and Parallel Capacitors|02 |02 | |
+|99005734|Abhijith Ashokan | Digital converter| Binary to gray code and vice versa| 06 | 06 | |
+|99005758|Prakruthi B R  |Digital circuits| Adder and subtractor | 08 | 08 | |
+|99005735|Sakshi |Rectifier| Half Wave, Full Wave Rectifiers, Bridge Rectifier & Rectifier with Filter| 04 | 04 | |
+|99005741|Jayashree.S | Flip FLops | SR Flip Flop, JK Flip Flop, D Flip FLop, T Flip Flop | 04 | 04 | |
+|99005746|Prajakta  | OpAmps_Part-B | Voltage Follower, Inverting Summing ,Non-Inverting Summing, Converter Current Voltage | 04 | 04 | |
