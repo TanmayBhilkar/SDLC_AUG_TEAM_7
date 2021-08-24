@@ -158,6 +158,7 @@ int OCTAL_BIN(char *ob)
 
 
 int OCTAL_DEC(long octal)
+ 
 {
  long int decimal = 0;
     int i = 0;
